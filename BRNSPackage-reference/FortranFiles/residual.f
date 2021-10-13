@@ -1,0 +1,306 @@
+c      
+c     SUBROUTINE residual
+c      
+      subroutine residual(funcs,j)
+        include 'common_geo.inc'
+        include 'common.inc'
+        dimension funcs(ncomp)
+        call switches(j)
+          funcs(1) = loc_z*kreac*sp(6,j)/(exp((doxmin-kmax1*sp(3,j)/(kso
+     +doc+sp(3,j))*sp(4,j)/(ksox+sp(4,j)))/st/doxmin)+1)+0.1D-1*loc_z*km
+     +*sp(6,j)+loc_z*(kl*sp(6,j)*vel**0.58D0+kdet*sp(6,j)/(exp((Bfmax-sp
+     +(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j)
+     +)/st/Bfmax)+1))-loc_z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,
+     +j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(7
+     +,j)-loc_z*kdeac*sp(1,j)*(1-1/(exp((doxmin-kmax1*sp(3,j)/(ksodoc+sp
+     +(3,j))*sp(4,j)/(ksox+sp(4,j)))/st/doxmin)+1))+sp(6,j)/delt-spold(6
+     +,j)/delt
+          funcs(2) = -loc_z*kdeac*sp(2,j)*(1-1/(exp((doxmin-kmax1*sp(3,j
+     +)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp(4,j)))/st/doxmin)+1))+loc_z*kr
+     +eac*sp(7,j)/(exp((doxmin-kmax1*sp(3,j)/(ksodoc+sp(3,j))*sp(4,j)/(k
+     +sox+sp(4,j)))/st/doxmin)+1)+0.1D-1*loc_z*km*sp(7,j)-loc_z*(kl*sp(6
+     +,j)*vel**0.58D0+kdet*sp(6,j)/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-
+     +sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))+loc_z*k
+     +att*(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(
+     +11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(7,j)+sp(7,j)/delt-spold(
+     +7,j)/delt
+          funcs(3) = -fdoco*loc_z/(exp((doxmin-kmax1*sp(3,j)/(ksodoc+sp(
+     +3,j))*sp(4,j)/(ksox+sp(4,j)))/st/doxmin)+1)*kmax1*sp(1,j)*sp(3,j)/
+     +(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp(4,j))-fdoco*loc_z/(exp((doxmin-k
+     +max1*sp(3,j)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp(4,j)))/st/doxmin)+1
+     +)*kmax1*sp(2,j)*sp(3,j)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp(4,j))+lo
+     +c_z*kpd*sp(18,j)-(sp(3,j)-1/fnitra*fdocn*sp(10,j)-1/fsulph*fdocs*s
+     +p(15,j))/delt+(spold(3,j)-1/fnitra*fdocn*spold(10,j)-1/fsulph*fdoc
+     +s*spold(15,j))/delt
+          funcs(4) = foo/fdoco*fdocn*loc_z/(exp((no3min-kmax2*kindox/(ki
+     +ndox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j)))/
+     +st/no3min)+1)*kmax2*sp(8,j)*kindox/(kindox+sp(4,j))*sp(10,j)/(ksno
+     +3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j))+foo/fdoco*fdocn*loc_z/(exp((n
+     +o3min-kmax2*kindox/(kindox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3
+     +,j)/(ksndoc+sp(3,j)))/st/no3min)+1)*kmax2*sp(9,j)*kindox/(kindox+s
+     +p(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j))+foo/fdo
+     +co/fnitra*fdocn*sp(10,j)/delt-foo/fdoco/fnitra*fdocn*spold(10,j)/d
+     +elt
+          funcs(5) = -fcn*loc_z/(exp((amming-sp(5,j))/st/amming)+1)*Yn*k
+     +max2*sp(8,j)*kindox/(kindox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(
+     +3,j)/(ksndoc+sp(3,j))/(exp((no3min-kmax2*kindox/(kindox+sp(4,j))*s
+     +p(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j)))/st/no3min)+1)+f
+     +cn*loc_z*(kl*sp(8,j)*vel**0.58D0+kdet*sp(8,j)/(exp((Bfmax-sp(1,j)-
+     +sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/B
+     +fmax)+1))-fcn*loc_z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)
+     +-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(9,j
+     +)-fcn*loc_z*kdeac*sp(9,j)*(1-1/(exp((no3min-kmax2*kindox/(kindox+s
+     +p(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j)))/st/no3
+     +min)+1))+fcn*loc_z*kreac*sp(12,j)/(exp((no3min-kmax2*kindox/(kindo
+     +x+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j)))/st/
+     +no3min)+1)-fcn*loc_z/(exp((amming-sp(5,j))/st/amming)+1)*Yo*kmax1*
+     +sp(1,j)*sp(3,j)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp(4,j))/(exp((doxm
+     +in-kmax1*sp(3,j)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp(4,j)))/st/doxmi
+     +n)+1)-fcn*loc_z*km*sp(9,j)-fcn*loc_z/(exp((amming-sp(5,j))/st/ammi
+     +ng)+1)*Yo*kmax1*sp(2,j)*sp(3,j)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp(
+     +4,j))/(exp((doxmin-kmax1*sp(3,j)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp
+     +(4,j)))/st/doxmin)+1)-fcn*loc_z*km*sp(13,j)-fcn*loc_z*km*sp(14,j)-
+     +0.1D-1*fcn*loc_z*km*sp(16,j)-0.1D-1*fcn*loc_z*km*sp(17,j)-fcn*loc_
+     +z*km*sp(20,j)-fcn*loc_z*km*sp(21,j)-0.1D-1*fcn*loc_z*km*sp(22,j)-0
+     +.1D-1*fcn*loc_z*km*sp(23,j)+(fcn*fdoco*foa+faa*foo)/fdoco/foa*loc_
+     +z*kpd*sp(18,j)-faa/foa*loc_z*(250-sp(4,j))*(1-1/(exp(0.25D1*(0.4D0
+     +-ws)/st)+1))-(faa*foo/fdoco/foa*sp(3,j)-faa/foa*sp(4,j)+sp(5,j)+fc
+     +n*sp(9,j)-faa*foo/fdoco/foa/fnitra*fdocn*sp(10,j)+fcn*sp(13,j)+fcn
+     +*sp(14,j)-faa/fsulph*fdocs*foo/fdoco/foa*sp(15,j)+fcn*sp(16,j)+fcn
+     +*sp(17,j)+fcn*sp(20,j)+fcn*sp(21,j)+fcn*sp(22,j)+fcn*sp(23,j))/del
+     +t+(faa*foo/fdoco/foa*spold(3,j)-faa/foa*spold(4,j)+spold(5,j)+fcn*
+     +spold(9,j)-faa*foo/fdoco/foa/fnitra*fdocn*spold(10,j)+fcn*spold(13
+     +,j)+fcn*spold(14,j)-faa/fsulph*fdocs*foo/fdoco/foa*spold(15,j)+fcn
+     +*spold(16,j)+fcn*spold(17,j)+fcn*spold(20,j)+fcn*spold(21,j)+fcn*s
+     +pold(22,j)+fcn*spold(23,j))/delt
+          funcs(6) = -loc_z*km*sp(1,j)-0.1D-1*loc_z*km*sp(6,j)+loc_z/(ex
+     +p((amming-sp(5,j))/st/amming)+1)*Yo*kmax1*sp(1,j)*sp(3,j)/(ksodoc+
+     +sp(3,j))*sp(4,j)/(ksox+sp(4,j))/(exp((doxmin-kmax1*sp(3,j)/(ksodoc
+     ++sp(3,j))*sp(4,j)/(ksox+sp(4,j)))/st/doxmin)+1)-loc_z*(kl*sp(1,j)*
+     +vel**0.58D0+kdet*sp(1,j)/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(2
+     +0,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))-loc_z*(kl*s
+     +p(6,j)*vel**0.58D0+kdet*sp(6,j)/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,
+     +j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))+loc_
+     +z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-
+     +sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(2,j)+loc_z*katt*(1-1/
+     +(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(
+     +16,j)-sp(22,j))/st/Bfmax)+1))*sp(7,j)-(sp(1,j)+sp(6,j))/delt+(spol
+     +d(1,j)+spold(6,j))/delt
+          funcs(7) = -loc_z*km*sp(2,j)-0.1D-1*loc_z*km*sp(7,j)+loc_z/(ex
+     +p((amming-sp(5,j))/st/amming)+1)*Yo*kmax1*sp(2,j)*sp(3,j)/(ksodoc+
+     +sp(3,j))*sp(4,j)/(ksox+sp(4,j))/(exp((doxmin-kmax1*sp(3,j)/(ksodoc
+     ++sp(3,j))*sp(4,j)/(ksox+sp(4,j)))/st/doxmin)+1)+loc_z*(kl*sp(1,j)*
+     +vel**0.58D0+kdet*sp(1,j)/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(2
+     +0,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))+loc_z*(kl*s
+     +p(6,j)*vel**0.58D0+kdet*sp(6,j)/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,
+     +j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))-loc_
+     +z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-
+     +sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(2,j)-loc_z*katt*(1-1/
+     +(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(
+     +16,j)-sp(22,j))/st/Bfmax)+1))*sp(7,j)-(sp(2,j)+sp(7,j))/delt+(spol
+     +d(2,j)+spold(7,j))/delt
+          funcs(8) = -loc_z/(exp((amming-sp(5,j))/st/amming)+1)*Yn*kmax2
+     +*sp(9,j)*kindox/(kindox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)
+     +/(ksndoc+sp(3,j))/(exp((no3min-kmax2*kindox/(kindox+sp(4,j))*sp(10
+     +,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j)))/st/no3min)+1)-loc_z
+     +*(kl*sp(8,j)*vel**0.58D0+kdet*sp(8,j)/(exp((Bfmax-sp(1,j)-sp(8,j)-
+     +sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1)
+     +)+loc_z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp
+     +(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(9,j)+loc_z*kdea
+     +c*sp(9,j)*(1-1/(exp((no3min-kmax2*kindox/(kindox+sp(4,j))*sp(10,j)
+     +/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j)))/st/no3min)+1))-loc_z*k
+     +reac*sp(12,j)/(exp((no3min-kmax2*kindox/(kindox+sp(4,j))*sp(10,j)/
+     +(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j)))/st/no3min)+1)+loc_z*km*
+     +sp(9,j)+sp(9,j)/delt-spold(9,j)/delt
+          funcs(9) = -loc_z*kdeac*sp(8,j)*(1-1/(exp((no3min-kmax2*kindox
+     +/(kindox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j
+     +)))/st/no3min)+1))-loc_z*kdeac*sp(9,j)*(1-1/(exp((no3min-kmax2*kin
+     +dox/(kindox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(
+     +3,j)))/st/no3min)+1))+loc_z*kreac*sp(11,j)/(exp((no3min-kmax2*kind
+     +ox/(kindox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3
+     +,j)))/st/no3min)+1)+loc_z*kreac*sp(12,j)/(exp((no3min-kmax2*kindox
+     +/(kindox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j
+     +)))/st/no3min)+1)+0.1D-1*loc_z*km*sp(11,j)-loc_z*km*sp(20,j)-loc_z
+     +*km*sp(21,j)-0.1D-1*loc_z*km*sp(22,j)-0.1D-1*loc_z*km*sp(23,j)+1/f
+     +cn*faa*foo/fdoco/foa*loc_z*kpd*sp(18,j)+loc_z*kmax5*sp(5,j)/(ksamm
+     ++sp(5,j))/(exp(0.1D2*(0.1D0*amming-sp(5,j))/st/amming)+1)-1/fcn*fa
+     +a/foa*loc_z*(250-sp(4,j))*(1-1/(exp(0.25D1*(0.4D0-ws)/st)+1))-(sp(
+     +1,j)+sp(2,j)+1/fcn*faa*foo/fdoco/foa*sp(3,j)-1/fcn*faa/foa*sp(4,j)
+     ++1/fcn*sp(5,j)+sp(6,j)+sp(7,j)+sp(8,j)+sp(9,j)-1/fcn*faa*foo/fdoco
+     +/foa/fnitra*fdocn*sp(10,j)+sp(13,j)+sp(14,j)-1/fcn*faa/fsulph*fdoc
+     +s*foo/fdoco/foa*sp(15,j)+sp(16,j)+sp(17,j)+sp(18,j)+sp(20,j)+sp(21
+     +,j)+sp(22,j)+sp(23,j))/delt+(spold(1,j)+spold(2,j)+1/fcn*faa*foo/f
+     +doco/foa*spold(3,j)-1/fcn*faa/foa*spold(4,j)+1/fcn*spold(5,j)+spol
+     +d(6,j)+spold(7,j)+spold(8,j)+spold(9,j)-1/fcn*faa*foo/fdoco/foa/fn
+     +itra*fdocn*spold(10,j)+spold(13,j)+spold(14,j)-1/fcn*faa/fsulph*fd
+     +ocs*foo/fdoco/foa*spold(15,j)+spold(16,j)+spold(17,j)+spold(18,j)+
+     +spold(20,j)+spold(21,j)+spold(22,j)+spold(23,j))/delt
+          funcs(10) = fnitra/fdocn*fdocs*loc_z/(exp((so4min-kmax3*sp(15,
+     +j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindox+sp(4,j
+     +))*kinno3/(kinno3+sp(10,j)))/st/so4min)+1)*kmax3*sp(13,j)*sp(15,j)
+     +/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindox+sp(4,j))
+     +*kinno3/(kinno3+sp(10,j))+fnitra/fdocn*fdocs*loc_z/(exp((so4min-km
+     +ax3*sp(15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kin
+     +dox+sp(4,j))*kinno3/(kinno3+sp(10,j)))/st/so4min)+1)*kmax3*sp(14,j
+     +)*sp(15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindo
+     +x+sp(4,j))*kinno3/(kinno3+sp(10,j))+fnitra/fdocn/fsulph*fdocs*sp(1
+     +5,j)/delt-fnitra/fdocn/fsulph*fdocs*spold(15,j)/delt
+          funcs(11) = -loc_z*(kl*sp(11,j)*vel**0.58D0+kdet*sp(11,j)/(exp
+     +((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j
+     +)-sp(22,j))/st/Bfmax)+1))+loc_z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8
+     +,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax
+     +)+1))*sp(12,j)-loc_z*kdeac*sp(9,j)*(1-1/(exp((no3min-kmax2*kindox/
+     +(kindox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j)
+     +))/st/no3min)+1))+loc_z*kreac*sp(12,j)/(exp((no3min-kmax2*kindox/(
+     +kindox+sp(4,j))*sp(10,j)/(ksno3+sp(10,j))*sp(3,j)/(ksndoc+sp(3,j))
+     +)/st/no3min)+1)-loc_z*km*sp(20,j)-loc_z*km*sp(21,j)-0.1D-1*loc_z*k
+     +m*sp(22,j)-0.1D-1*loc_z*km*sp(23,j)+1/fcn*faa*foo/fdoco/foa*loc_z*
+     +kpd*sp(18,j)+loc_z*kmax5*sp(5,j)/(ksamm+sp(5,j))/(exp(0.1D2*(0.1D0
+     +*amming-sp(5,j))/st/amming)+1)-1/fcn*faa/foa*loc_z*(250-sp(4,j))*(
+     +1-1/(exp(0.25D1*(0.4D0-ws)/st)+1))-(sp(1,j)+sp(2,j)+1/fcn*faa*foo/
+     +fdoco/foa*sp(3,j)-1/fcn*faa/foa*sp(4,j)+1/fcn*sp(5,j)+sp(6,j)+sp(7
+     +,j)+sp(8,j)+sp(9,j)-1/fcn*faa*foo/fdoco/foa/fnitra*fdocn*sp(10,j)+
+     +sp(11,j)+sp(13,j)+sp(14,j)-1/fcn*faa/fsulph*fdocs*foo/fdoco/foa*sp
+     +(15,j)+sp(16,j)+sp(17,j)+sp(18,j)+sp(20,j)+sp(21,j)+sp(22,j)+sp(23
+     +,j))/delt+(spold(1,j)+spold(2,j)+1/fcn*faa*foo/fdoco/foa*spold(3,j
+     +)-1/fcn*faa/foa*spold(4,j)+1/fcn*spold(5,j)+spold(6,j)+spold(7,j)+
+     +spold(8,j)+spold(9,j)-1/fcn*faa*foo/fdoco/foa/fnitra*fdocn*spold(1
+     +0,j)+spold(11,j)+spold(13,j)+spold(14,j)-1/fcn*faa/fsulph*fdocs*fo
+     +o/fdoco/foa*spold(15,j)+spold(16,j)+spold(17,j)+spold(18,j)+spold(
+     +20,j)+spold(21,j)+spold(22,j)+spold(23,j))/delt
+          funcs(12) = -loc_z*km*sp(8,j)-loc_z/(exp((amming-sp(5,j))/st/a
+     +mming)+1)*Yo*kmax1*sp(1,j)*sp(3,j)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+
+     +sp(4,j))/(exp((doxmin-kmax1*sp(3,j)/(ksodoc+sp(3,j))*sp(4,j)/(ksox
+     ++sp(4,j)))/st/doxmin)+1)-loc_z*km*sp(9,j)-0.1D-1*loc_z*km*sp(11,j)
+     +-loc_z/(exp((amming-sp(5,j))/st/amming)+1)*Yo*kmax1*sp(2,j)*sp(3,j
+     +)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp(4,j))/(exp((doxmin-kmax1*sp(3,
+     +j)/(ksodoc+sp(3,j))*sp(4,j)/(ksox+sp(4,j)))/st/doxmin)+1)-loc_z*km
+     +*sp(13,j)-loc_z*km*sp(14,j)-0.1D-1*loc_z*km*sp(16,j)-0.1D-1*loc_z*
+     +km*sp(17,j)+loc_z*kpd*sp(18,j)-loc_z*kmax5*sp(5,j)/(ksamm+sp(5,j))
+     +/(exp(0.1D2*(0.1D0*amming-sp(5,j))/st/amming)+1)-(-sp(1,j)-sp(2,j)
+     +-sp(6,j)-sp(7,j)-sp(18,j))/delt+(-spold(1,j)-spold(2,j)-spold(6,j)
+     +-spold(7,j)-spold(18,j))/delt
+          funcs(13) = loc_z/(exp((amming-sp(5,j))/st/amming)+1)*Ys*kmax3
+     +*sp(13,j)*sp(15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindo
+     +x/(kindox+sp(4,j))*kinno3/(kinno3+sp(10,j))/(exp((so4min-kmax3*sp(
+     +15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindox+sp(
+     +4,j))*kinno3/(kinno3+sp(10,j)))/st/so4min)+1)-loc_z*(kl*sp(13,j)*v
+     +el**0.58D0+kdet*sp(13,j)/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(2
+     +0,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))+loc_z*katt*
+     +(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j
+     +)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(14,j)+loc_z*kdeac*sp(14,j)*(
+     +1-1/(exp((so4min-kmax3*sp(15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+s
+     +p(3,j))*kindox/(kindox+sp(4,j))*kinno3/(kinno3+sp(10,j)))/st/so4mi
+     +n)+1))-loc_z*kreac*sp(17,j)/(exp((so4min-kmax3*sp(15,j)/(ksso4+sp(
+     +15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindox+sp(4,j))*kinno3/(ki
+     +nno3+sp(10,j)))/st/so4min)+1)-loc_z*km*sp(13,j)-0.1D-1*loc_z*km*sp
+     +(16,j)-0.1D-1*loc_z*km*sp(17,j)-(sp(13,j)+sp(16,j)+sp(17,j))/delt+
+     +(spold(13,j)+spold(16,j)+spold(17,j))/delt
+          funcs(14) = loc_z/(exp((amming-sp(5,j))/st/amming)+1)*Ys*kmax3
+     +*sp(14,j)*sp(15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindo
+     +x/(kindox+sp(4,j))*kinno3/(kinno3+sp(10,j))/(exp((so4min-kmax3*sp(
+     +15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindox+sp(
+     +4,j))*kinno3/(kinno3+sp(10,j)))/st/so4min)+1)+loc_z*(kl*sp(13,j)*v
+     +el**0.58D0+kdet*sp(13,j)/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(2
+     +0,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))-loc_z*katt*
+     +(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j
+     +)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(14,j)-loc_z*kdeac*sp(14,j)*(
+     +1-1/(exp((so4min-kmax3*sp(15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+s
+     +p(3,j))*kindox/(kindox+sp(4,j))*kinno3/(kinno3+sp(10,j)))/st/so4mi
+     +n)+1))+loc_z*kreac*sp(17,j)/(exp((so4min-kmax3*sp(15,j)/(ksso4+sp(
+     +15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindox+sp(4,j))*kinno3/(ki
+     +nno3+sp(10,j)))/st/so4min)+1)-loc_z*km*sp(14,j)-sp(14,j)/delt+spol
+     +d(14,j)/delt
+          funcs(15) = -fsulph/fdocs/foo*fdoco*foa*loc_z*sp(20,j)*kmax4*s
+     +p(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j))/(exp((ammin-kmax4*sp
+     +(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j)))/st/ammin)+1)-fsulph/
+     +fdocs/foo*fdoco*foa*loc_z*sp(21,j)*kmax4*sp(5,j)/(ksamm+sp(5,j))*s
+     +p(4,j)/(ksox+sp(4,j))/(exp((ammin-kmax4*sp(5,j)/(ksamm+sp(5,j))*sp
+     +(4,j)/(ksox+sp(4,j)))/st/ammin)+1)-fsulph/fdocs*loc_z*kpd*sp(18,j)
+     ++fsulph/fdocs/foo*fdoco*loc_z*(250-sp(4,j))*(1-1/(exp(0.25D1*(0.4D
+     +0-ws)/st)+1))-(-fsulph/fdocs*sp(3,j)+fsulph/fdocs/foo*fdoco*sp(4,j
+     +)+fsulph/fnitra*fdocn/fdocs*sp(10,j)+sp(15,j))/delt+(-fsulph/fdocs
+     +*spold(3,j)+fsulph/fdocs/foo*fdoco*spold(4,j)+fsulph/fnitra*fdocn/
+     +fdocs*spold(10,j)+spold(15,j))/delt
+          funcs(16) = -loc_z*(kl*sp(16,j)*vel**0.58D0+kdet*sp(16,j)/(exp
+     +((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j
+     +)-sp(22,j))/st/Bfmax)+1))+loc_z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8
+     +,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax
+     +)+1))*sp(17,j)-loc_z*kdeac*sp(14,j)*(1-1/(exp((so4min-kmax3*sp(15,
+     +j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindox+sp(4,j
+     +))*kinno3/(kinno3+sp(10,j)))/st/so4min)+1))+loc_z*kreac*sp(17,j)/(
+     +exp((so4min-kmax3*sp(15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j
+     +))*kindox/(kindox+sp(4,j))*kinno3/(kinno3+sp(10,j)))/st/so4min)+1)
+     ++0.1D-1*loc_z*km*sp(17,j)+sp(17,j)/delt-spold(17,j)/delt
+          funcs(17) = loc_z*kdeac*sp(13,j)*(1-1/(exp((so4min-kmax3*sp(15
+     +,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindox+sp(4,
+     +j))*kinno3/(kinno3+sp(10,j)))/st/so4min)+1))+loc_z*kdeac*sp(14,j)*
+     +(1-1/(exp((so4min-kmax3*sp(15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+
+     +sp(3,j))*kindox/(kindox+sp(4,j))*kinno3/(kinno3+sp(10,j)))/st/so4m
+     +in)+1))-loc_z*kreac*sp(16,j)/(exp((so4min-kmax3*sp(15,j)/(ksso4+sp
+     +(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(kindox+sp(4,j))*kinno3/(k
+     +inno3+sp(10,j)))/st/so4min)+1)-loc_z*kreac*sp(17,j)/(exp((so4min-k
+     +max3*sp(15,j)/(ksso4+sp(15,j))*sp(3,j)/(kssdoc+sp(3,j))*kindox/(ki
+     +ndox+sp(4,j))*kinno3/(kinno3+sp(10,j)))/st/so4min)+1)-0.1D-1*loc_z
+     +*km*sp(16,j)-0.1D-1*loc_z*km*sp(17,j)-(sp(16,j)+sp(17,j))/delt+(sp
+     +old(16,j)+spold(17,j))/delt
+          funcs(18) = -0.1D-1*loc_z*km*sp(12,j)-loc_z*km*sp(20,j)-loc_z*
+     +km*sp(21,j)-0.1D-1*loc_z*km*sp(22,j)-0.1D-1*loc_z*km*sp(23,j)+1/fc
+     +n*faa*foo/fdoco/foa*loc_z*kpd*sp(18,j)+loc_z*kmax5*sp(5,j)/(ksamm+
+     +sp(5,j))/(exp(0.1D2*(0.1D0*amming-sp(5,j))/st/amming)+1)-1/fcn*faa
+     +/foa*loc_z*(250-sp(4,j))*(1-1/(exp(0.25D1*(0.4D0-ws)/st)+1))-(sp(1
+     +,j)+sp(2,j)+1/fcn*faa*foo/fdoco/foa*sp(3,j)-1/fcn*faa/foa*sp(4,j)+
+     +1/fcn*sp(5,j)+sp(6,j)+sp(7,j)+sp(8,j)+sp(9,j)-1/fcn*faa*foo/fdoco/
+     +foa/fnitra*fdocn*sp(10,j)+sp(11,j)+sp(12,j)+sp(13,j)+sp(14,j)-1/fc
+     +n*faa/fsulph*fdocs*foo/fdoco/foa*sp(15,j)+sp(16,j)+sp(17,j)+sp(18,
+     +j)+sp(20,j)+sp(21,j)+sp(22,j)+sp(23,j))/delt+(spold(1,j)+spold(2,j
+     +)+1/fcn*faa*foo/fdoco/foa*spold(3,j)-1/fcn*faa/foa*spold(4,j)+1/fc
+     +n*spold(5,j)+spold(6,j)+spold(7,j)+spold(8,j)+spold(9,j)-1/fcn*faa
+     +*foo/fdoco/foa/fnitra*fdocn*spold(10,j)+spold(11,j)+spold(12,j)+sp
+     +old(13,j)+spold(14,j)-1/fcn*faa/fsulph*fdocs*foo/fdoco/foa*spold(1
+     +5,j)+spold(16,j)+spold(17,j)+spold(18,j)+spold(20,j)+spold(21,j)+s
+     +pold(22,j)+spold(23,j))/delt
+          funcs(19) = sp(19,j)-spold(19,j)
+          funcs(20) = loc_z/(exp((amming-sp(5,j))/st/amming)+1)*Ya*sp(20
+     +,j)*kmax4*sp(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j))/(exp((amm
+     +in-kmax4*sp(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j)))/st/ammin)
+     ++1)-loc_z*(kl*sp(20,j)*vel**0.58D0+kdet*sp(20,j)/(exp((Bfmax-sp(1,
+     +j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/s
+     +t/Bfmax)+1))+loc_z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-
+     +sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(21,j
+     +)+loc_z*kdeac*sp(21,j)*(1-1/(exp((ammin-kmax4*sp(5,j)/(ksamm+sp(5,
+     +j))*sp(4,j)/(ksox+sp(4,j)))/st/ammin)+1))-loc_z*kreac*sp(23,j)/(ex
+     +p((ammin-kmax4*sp(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j)))/st/
+     +ammin)+1)-loc_z*km*sp(20,j)-0.1D-1*loc_z*km*sp(22,j)-0.1D-1*loc_z*
+     +km*sp(23,j)-(sp(20,j)+sp(22,j)+sp(23,j))/delt+(spold(20,j)+spold(2
+     +2,j)+spold(23,j))/delt
+          funcs(21) = loc_z/(exp((amming-sp(5,j))/st/amming)+1)*Ya*sp(21
+     +,j)*kmax4*sp(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j))/(exp((amm
+     +in-kmax4*sp(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j)))/st/ammin)
+     ++1)+loc_z*(kl*sp(20,j)*vel**0.58D0+kdet*sp(20,j)/(exp((Bfmax-sp(1,
+     +j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/s
+     +t/Bfmax)+1))-loc_z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-
+     +sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax)+1))*sp(21,j
+     +)-loc_z*kdeac*sp(21,j)*(1-1/(exp((ammin-kmax4*sp(5,j)/(ksamm+sp(5,
+     +j))*sp(4,j)/(ksox+sp(4,j)))/st/ammin)+1))+loc_z*kreac*sp(23,j)/(ex
+     +p((ammin-kmax4*sp(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j)))/st/
+     +ammin)+1)-loc_z*km*sp(21,j)-sp(21,j)/delt+spold(21,j)/delt
+          funcs(22) = -loc_z*(kl*sp(22,j)*vel**0.58D0+kdet*sp(22,j)/(exp
+     +((Bfmax-sp(1,j)-sp(8,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j
+     +)-sp(22,j))/st/Bfmax)+1))+loc_z*katt*(1-1/(exp((Bfmax-sp(1,j)-sp(8
+     +,j)-sp(13,j)-sp(20,j)-sp(6,j)-sp(11,j)-sp(16,j)-sp(22,j))/st/Bfmax
+     +)+1))*sp(23,j)-loc_z*kdeac*sp(21,j)*(1-1/(exp((ammin-kmax4*sp(5,j)
+     +/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j)))/st/ammin)+1))+loc_z*kreac
+     +*sp(23,j)/(exp((ammin-kmax4*sp(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+
+     +sp(4,j)))/st/ammin)+1)+0.1D-1*loc_z*km*sp(23,j)+sp(23,j)/delt-spol
+     +d(23,j)/delt
+          funcs(23) = loc_z*kdeac*sp(20,j)*(1-1/(exp((ammin-kmax4*sp(5,j
+     +)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j)))/st/ammin)+1))+loc_z*kdea
+     +c*sp(21,j)*(1-1/(exp((ammin-kmax4*sp(5,j)/(ksamm+sp(5,j))*sp(4,j)/
+     +(ksox+sp(4,j)))/st/ammin)+1))-loc_z*kreac*sp(22,j)/(exp((ammin-kma
+     +x4*sp(5,j)/(ksamm+sp(5,j))*sp(4,j)/(ksox+sp(4,j)))/st/ammin)+1)-lo
+     +c_z*kreac*sp(23,j)/(exp((ammin-kmax4*sp(5,j)/(ksamm+sp(5,j))*sp(4,
+     +j)/(ksox+sp(4,j)))/st/ammin)+1)-0.1D-1*loc_z*km*sp(22,j)-0.1D-1*lo
+     +c_z*km*sp(23,j)-(sp(22,j)+sp(23,j))/delt+(spold(22,j)+spold(23,j))
+     +/delt
+      end

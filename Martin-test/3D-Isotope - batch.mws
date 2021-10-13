@@ -1,0 +1,756 @@
+{VERSION 4 0 "Windows 7" "4.0" }
+{USTYLETAB {PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Courier" 1 18
+ 128 128 128 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 8 4 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2
+ 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Left Justifie
+d Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Fixed Width" -1 17
+ 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 
+0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Help" -1 10 1 {CSTYLE "" -1 -1 "Couri
+er" 1 9 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Heading 4" -1 20 1 {CSTYLE "" -1 -1 "Times" 1 10 0 0 0 1 1 1 
+2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Line Printed O
+utput" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 
+0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 2" -1 4 1 
+{CSTYLE "" -1 -1 "Courier" 1 14 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 8
+ 2 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "
+Courier" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 
+1 }{PSTYLE "Heading 3" -1 5 1 {CSTYLE "" -1 -1 "Courier" 1 14 0 0 0 1 
+2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Diagnostic
+" -1 9 1 {CSTYLE "" -1 -1 "Courier" 1 10 64 128 64 1 2 2 2 2 2 1 1 0 0
+ 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Ordered List 1" -1 200 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3
+ 2 0 2 0 2 2 -1 1 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Cour
+ier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 
+}{PSTYLE "Ordered List 2" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0
+ 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 36 2 0 2 2 -1 1 }{PSTYLE "Ordere
+d List 3" -1 202 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1
+ 0 0 1 }1 1 0 0 3 3 2 72 2 0 2 2 -1 1 }{PSTYLE "Ordered List 4" -1 203
+ 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 
+3 3 2 108 2 0 2 2 -1 1 }{PSTYLE "Ordered List 5" -1 204 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 144 2 0 
+2 2 -1 1 }{PSTYLE "Annotation Title" -1 205 1 {CSTYLE "" -1 -1 "Times"
+ 1 18 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Normal260" -1 206 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 0 0 1 1
+ 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "HyperlinkEr
+ror" -1 207 1 {CSTYLE "" -1 -1 "Courier" 1 12 255 0 255 1 2 2 1 2 2 1 
+1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "HyperlinkWarning" -1 
+208 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 0 255 1 2 2 1 2 2 1 1 0 0 1 }1
+ 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 
+2 -1 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0
+ 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "List \+
+Item" -1 14 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 
+1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal258" -1 209 1 {CSTYLE 
+"" -1 -1 "Times" 1 12 64 128 128 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 
+0 2 0 2 2 -1 1 }{PSTYLE "Dash Item" -1 16 1 {CSTYLE "" -1 -1 "Times" 1
+ 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE
+ "Error" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 
+1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Title" -1 18 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 0 0 1 }3 1 0 0 12 
+12 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Courier
+" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2
+ 2 2 1 0 0 1 }3 1 0 0 8 8 2 0 2 0 2 2 -1 1 }{CSTYLE "Help Variable" -1
+ 25 "Courier" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Maple Comment
+" -1 21 "Courier" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Popup" -1
+ 31 "Times" 1 12 0 128 128 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Atomic Vari
+able" -1 200 "Times" 1 12 175 0 175 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Pl
+ot Text" -1 28 "Times" 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Ma
+th Italic Small203221" -1 201 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 
+}{CSTYLE "Code" -1 202 "Courier" 1 12 255 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Italic" -1 3 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1
+ }{CSTYLE "2D Math Italic Small203220" -1 203 "Times" 1 1 0 0 0 1 1 2 
+2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small203223" -1 204 "Times" 1
+ 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Small" -1 7 "Times" 1
+ 1 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small203222" 
+-1 205 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Itali
+c Small203214" -1 206 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE
+ "2D Math Italic Small203216" -1 207 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0
+ 0 0 1 }{CSTYLE "2D Math Italic Small203215" -1 208 "Times" 1 1 0 0 0 
+1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small203218" -1 209 "Ti
+mes" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small203
+217" -1 210 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math \+
+Italic Small203219" -1 211 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Bold Small" -1 10 "Times" 1 1 0 0 0 1 2 1 2 2 2 2 0 0
+ 0 1 }{CSTYLE "Help Bold" -1 39 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0
+ 1 }{CSTYLE "Help Menus" -1 36 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 
+1 }{CSTYLE "Help Normal" -1 30 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 
+1 }{CSTYLE "Maple Input" -1 0 "Courier" 1 14 255 0 0 1 2 1 2 2 1 2 0 0
+ 0 1 }{CSTYLE "Header and Footer" -1 212 "Times" 1 10 0 0 0 1 2 2 2 2 
+2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small203" -1 213 "Times" 1 1 0 0 
+0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Output Labels" -1 29 "Times" 1 8 0 0
+ 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small202" -1 214 "Ti
+mes" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Notes" -1 37 "Time
+s" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined" -1 44 "
+Times" 1 12 0 0 0 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Text" -1 215 "Times"
+ 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plot Title" -1 27 "Times" 
+1 10 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Default" -1 38 "Times" 1 12
+ 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Italic Bold" -1 40 "Times"
+ 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Maple Input Placeholder" 
+-1 216 "Courier" 1 12 200 0 200 1 2 1 2 2 1 2 0 0 0 1 }{CSTYLE "LaTeX"
+ -1 32 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Emphasi
+zed" -1 22 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Equation
+ Label" -1 217 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help
+ Italic" -1 42 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Prom
+pt" -1 1 "Courier" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math \+
+Bold" -1 5 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Hyperlin
+k" -1 17 "Times" 1 12 128 0 0 1 2 1 1 2 2 2 0 0 0 1 }{CSTYLE "Caption \+
+Text" -1 218 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help U
+nderlined Bold" -1 41 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "Copyright" -1 34 "Times" 1 10 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Italic Small202212" -1 219 "Times" 1 1 0 0 0 1 1 2 2 
+2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small227" -1 220 "Times" 1 1 0 
+0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Dictionary Hyperlink" -1 45 "Times
+" 1 12 147 0 15 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "2D Input" -1 19 "Times
+" 1 12 255 0 0 1 2 2 2 2 1 2 0 0 0 1 }{CSTYLE "2D Math Italic Small202
+211" -1 221 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math \+
+Italic Small202210" -1 222 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Italic Small202206" -1 223 "Times" 1 1 0 0 0 1 1 2 2 
+2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small202208" -1 224 "Times" 1 1
+ 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small202207" -1 
+225 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic S
+mall202209" -1 226 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "H
+elp Heading" -1 26 "Courier" 1 14 0 128 128 1 2 1 1 2 2 2 0 0 0 1 }
+{CSTYLE "2D Output" -1 20 "Times" 1 12 0 0 255 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Inert Output" -1 227 "Times" 1 12 144 144 144 1 2 2 2 2 1 
+2 0 0 0 1 }{CSTYLE "Page Number" -1 33 "Times" 1 12 0 0 0 1 2 2 2 2 2 
+2 0 0 0 1 }{CSTYLE "Help Fixed" -1 23 "Courier" 1 10 0 0 0 1 2 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "2D Math Italic Small" -1 228 "Times" 1 1 0 0 0 1 
+1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Symbol 2" -1 16 "Times" 1 12 0 0
+ 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Nonterminal" -1 24 "Courier" 1 12 0
+ 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Annotation Text" -1 229 "Times" 1
+ 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Maple Name" -1 35 "Time
+s" 1 12 104 64 92 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined Ital
+ic" -1 43 "Times" 1 12 0 0 0 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Caption R
+eference" -1 230 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D
+ Comment" -1 18 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{PSTYLE "" 
+-1 210 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 
+1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "" -1 211 1 {CSTYLE "" -1 -1 "Time
+s" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{CSTYLE "" -1 231 "Times" 1 18 64 128 128 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 232 "Times" 1 18 64 128 128 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 233 "Times" 1 18 64 128 128 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 234 "Times" 1 18 64 128 128 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 235 "Times" 1 18 64 128 128 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 236 "Courier" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 237 "Courier" 1 18 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 
+238 "Courier" 1 18 128 128 128 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 
+239 "Courier" 1 18 0 255 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 240 "C
+ourier" 1 18 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 241 "Courier" 
+1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 242 "Courier" 1 18 255
+ 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 243 "Courier" 1 14 255 0 0 1
+ 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 244 "Courier" 1 18 0 0 255 1 2 1 2
+ 2 2 2 0 0 0 1 }{CSTYLE "" -1 245 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0
+ 0 0 1 }{PSTYLE "" -1 212 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 0 0 1 }1 1 0 0 8 4 2 0 2 0 2 2 -1 1 }{CSTYLE "" -1 246 "Cour
+ier" 1 18 0 255 0 1 2 1 2 2 2 2 0 0 0 1 }{PSTYLE "" -1 213 1 {CSTYLE "
+" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 8 4 2 0 2 0 
+2 2 -1 1 }{CSTYLE "" -1 247 "Courier" 1 18 0 255 0 1 2 1 2 2 2 2 0 0 0
+ 1 }{CSTYLE "" -1 248 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 249 "Courier" 1 12 0 0 0 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 250 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 
+251 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 252 "Cou
+rier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 253 "Courier" 1 
+12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 254 "Courier" 1 12 0 0 0
+ 1 1 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 255 "Courier" 1 12 0 0 0 1 1 1 2
+ 2 2 2 0 0 0 1 }{CSTYLE "" -1 256 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0
+ 0 0 1 }{CSTYLE "" -1 257 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 258 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 259 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 
+260 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 261 "Cou
+rier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 262 "Courier" 1 
+12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 263 "Courier" 1 12 0 0 0
+ 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 264 "Courier" 1 12 0 0 0 1 1 2 2
+ 2 2 2 0 0 0 1 }{CSTYLE "" -1 265 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0
+ 0 0 1 }{CSTYLE "" -1 266 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 267 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 268 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 
+269 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 270 "Cou
+rier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 271 "Courier" 1 
+12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 272 "Courier" 1 12 0 0 0
+ 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 273 "Courier" 1 12 0 0 0 1 1 2 2
+ 2 2 2 0 0 0 1 }{CSTYLE "" -1 274 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0
+ 0 0 1 }{CSTYLE "" -1 275 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 276 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 277 "Courier" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 
+278 "Courier" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{PSTYLE "" -1 214 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0
+ 0 2 0 2 0 2 2 -1 1 }{CSTYLE "" -1 279 "Courier" 1 14 0 0 0 1 2 1 2 2 
+2 2 0 0 0 1 }{CSTYLE "" -1 280 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 
+0 1 }{CSTYLE "" -1 281 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 282 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 283 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 
+284 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{PSTYLE "" -1 215 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 1 0 0 1 }1 1 0 0 0
+ 0 2 0 2 0 2 2 -1 1 }{CSTYLE "" -1 285 "Courier" 1 12 0 0 0 1 1 1 2 2 
+2 2 0 0 0 1 }{CSTYLE "" -1 286 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 
+0 1 }{CSTYLE "" -1 287 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "" -1 288 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 289 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 
+290 "Courier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 291 "Cou
+rier" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 292 "Courier" 1 
+12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{PSTYLE "" -1 216 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 8 4 2 0 2 0 2 2 -1 1 
+}}
+{SECT 0 {PARA 209 "" 0 "" {TEXT 293 74 "_____________________________
+____________________________________________\n" }}{PARA 210 "" 0 "" 
+{TEXT 215 60 "AUTOMATIC CODE GENERATOR (ACG) FOR CONSTRUCTING USER-DEF
+INED" }}{PARA 211 "" 0 "" {TEXT 215 32 "BIOGEOCHEMICAL REACTION NETWOR
+KS" }}{PARA 209 "" 0 "" {TEXT 293 0 "" }}{PARA 209 "" 0 "" {TEXT 231 
+7 "2.0 UFZ" }{TEXT 293 1 "\n" }{TEXT 232 34 "COPYRIGHT (c) 2001 P.A.G.
+ Regnier " }}{PARA 209 "" 0 "" {TEXT 233 1 "\n" }{TEXT 234 19 "All Rig
+hts Reserved" }{TEXT 235 1 "\n" }{TEXT 293 1 "\n" }{TEXT 293 74 "_____
+_____________________________________________________________________"
+ }}{PARA 0 "" 0 "" {TEXT 294 74 "_____________________________________
+_____________________________________" }}{PARA 0 "" 0 "" {TEXT 236 11 
+"INPUT TYPES" }{TEXT 237 1 "\n" }{TEXT 294 1 "\n" }{TEXT 238 3 "OOO" }
+{TEXT 294 48 " : Sections that should be modified by the user\n" }
+{TEXT 239 3 "OOO" }{TEXT 294 52 " : Sections that should NOT be modifi
+ed by the user\n" }}{PARA 0 "" 0 "" {TEXT 240 3 "OOO" }{TEXT 241 1 " "
+ }{TEXT 294 12 ": comments \n" }{TEXT 242 3 "OOO" }{TEXT 243 1 " " }
+{TEXT 294 14 ": Maple input\n" }{TEXT 244 3 "OOO" }{TEXT 294 72 " : Ma
+ple output (appears only after you have executed the spreadsheet) \n" 
+}{TEXT 26 3 "OOO" }{TEXT 294 63 "  : Maple input entries that have to \+
+be specified by the user \n" }{TEXT 294 1 "\n" }{TEXT 17 3 "WWW" }
+{TEXT 294 36 "  : Hyperlink to the Knowledge Book\n" }{TEXT 245 1 "\n"
+ }{TEXT 294 75 "______________________________________________________
+___________________ \n" }}{SECT 0 {PARA 212 "" 0 "" {TEXT 215 20 " Map
+le specific info" }{TEXT 246 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 10 "restart ;\n" }{MPLTEXT 1 0 15 "#with(Spread) :" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 " precision := double :" }}}}{SECT 0
+ {PARA 213 "" 0 "" {TEXT 215 32 " Summary and governing equations" }
+{TEXT 247 0 "" }}{SECT 0 {PARA 5 "" 0 "" {TEXT 295 20 " Governing equa
+tion " }}{PARA 0 "" 0 "" {TEXT 294 47 "The governing equation solved i
+s of the form :\n" }{TEXT 248 38 "theta(x)*dC/dt = -d(Fdiff+Fadv)/dx +
+ R" }{TEXT 294 2 ",\n" }{TEXT 294 7 "where \n" }{TEXT 294 69 "- dX/dp \+
+is the partial derivative of X with respect to p [M/L^3/[p]]\n" }{TEXT
+ 294 84 "- theta(x) = A(x)*por(x) for dissolved, and A(x)*(1-por(x)) f
+or solid species [L^2]\n" }{TEXT 294 43 "- Fdiff = -(D(x)*theta(x)*dC/
+dx) [M/L^2/T]\n" }{TEXT 294 34 "- Fadv  = (v*theta(x)*C)[M/L^2/T]\n" }
+{TEXT 294 57 "- A is the cross section area [L^2], por is porosity [-]
+\n" }{TEXT 294 49 "- v is the advection velocity [L/T], the sum of \n"
+ }{TEXT 294 85 "the water flow velocity (vwat = water flow q in [L^3/T
+]/theta(x), solutes only) and \n" }{TEXT 294 105 "an advective velocit
+y w acting upon both solids and solutes (e.g. movement due to fixed re
+ference frame)\n" }{TEXT 294 64 "- D is the effective diffusion coeffi
+cient [L^2/T], the sum of \n" }{TEXT 294 59 "the molecular diffusion c
+oefficient (Dmol, solutes only), \n" }{TEXT 294 39 "the bioturbation c
+oefficient (Db) and \n" }{TEXT 294 73 "the dispersion coefficient (Dis
+p = aL*|vwat|, solutes only, aL in [L]). \n" }{TEXT 294 101 "- R is th
+e sum of the reaction terms [M/L^3/T] as specified in the reaction net
+work established below" }}}{SECT 0 {PARA 5 "" 0 "" {TEXT 295 9 " Cavea
+ts " }}{PARA 0 "" 0 "" {TEXT 294 60 "- for real numbers you should add
+ a point after the number.\n" }{TEXT 294 30 "- make sure all units mat
+ch. \n" }{TEXT 294 68 "e.g. rates and dXdt, or flux boundary condition
+s and concentrations\n" }{TEXT 294 46 "for the conversion of solid to \+
+solute units, \n" }{TEXT 294 76 "one may define temporary variables th
+at can be used in the rate laws below:\n" }{TEXT 294 49 "s_dens := 2.5
+; # solid density in [g/cm_solid^3]\n" }{TEXT 294 48 "sd := 1000. * s_
+dens * (1. - por(j)) / por(j); \n" }{TEXT 294 66 "the factor 1.d03 con
+verts cm^3 to liter, e.g. [g/cm^3] to [g/l]. \n" }{TEXT 294 40 "note t
+hat you need to refer to porosity " }{TEXT 249 7 "exactly" }{TEXT 294 
+11 " as por(j)." }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 296 21 " Physics - \+
+Parameters" }}{PARA 206 "" 0 "" {TEXT 297 19 "The list of length " }
+{TEXT 26 20 "nparphys & nparphys2" }{TEXT 297 13 " is given by " }
+{TEXT 26 22 "phys_name & phys_name2" }{TEXT 297 26 "; the values colle
+cted in " }{TEXT 26 21 "phys_val & phys_val2." }}{SECT 0 {PARA 5 "" 0 
+"" {TEXT 295 33 " Spatial and temporal domain size" }}{PARA 0 "" 0 "" 
+{TEXT 26 9 "tot_time:" }{TEXT 294 43 " total length of simulation (T, \+
+e.g. years)" }}{PARA 0 "" 0 "" {TEXT 26 10 "depth_max:" }{TEXT 294 60 
+" spatial extent, e.g. total depth of simulation (L, e.g. cm)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "tot_time := 40.1 ;\n" }
+{MPLTEXT 1 0 18 "depth_max := 1.0 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">
+I)tot_timeG6\"$\"$,%!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I*depth_ma
+xG6\"$\"#5!\"\"" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 295 23 " Transport \+
+coefficients" }}{EXCHG {PARA 0 "" 0 "" {TEXT 26 3 "vaL" }{TEXT 294 95 
+": longitudinal dispersivity (L). The dispersion coefficient is calcul
+ated as Disp = aL*|vwat| \n" }{TEXT 26 3 "viq" }{TEXT 294 82 ": depth \+
+dependency of flow. 0: constant, else changing with depth (i.e. distan
+ce)\n" }{TEXT 26 3 "vq0" }{TEXT 294 53 ": water flow (either constant \+
+or else at x=0, L^3/T)\n" }{TEXT 26 3 "viw" }{TEXT 294 79 ": depth dep
+endency of w. 0: constant, else changing with depth (i.e. distance)\n"
+ }{TEXT 26 3 "vw0" }{TEXT 294 89 ": advection velocity working on soli
+ds and solutes (either constant or else at x=0, L/T)\n" }{TEXT 26 4 "v
+iDb" }{TEXT 294 80 ": depth dependency of Db. 0: constant, else changi
+ng with depth (i.e. distance)\n" }{TEXT 26 4 "vDb0" }{TEXT 294 97 ": b
+ioturbation coefficient working on solids and solutes (either constant
+ or else at x=0, L^2/T)\n" }{TEXT 294 1 "\n" }{TEXT 294 134 "- user sp
+ecified profiles of q(x), w(x) or Db(x) must be defined in the fortran
+ subroutines advcoeff.f and diffcoeff.f, respectively.\n" }{TEXT 294 
+87 "- the molecular diffusion coefficients for the species used are sp
+ecified further below" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "va
+l := 0.0 ;\n" }{MPLTEXT 1 0 11 "viq := 0 ;\n" }{MPLTEXT 1 0 12 "vq0 :=
+ 0. ;\n" }{MPLTEXT 1 0 11 "viw := 0 ;\n" }{MPLTEXT 1 0 13 "vw0 := 0.0 \+
+;\n" }{MPLTEXT 1 0 12 "viDb := 0 ;\n" }{MPLTEXT 1 0 13 "vDb0 := 0.0 ;"
+ }}{PARA 11 "" 1 "" {XPPMATH 20 ">I$valG6\"$\"\"!F&" }}{PARA 11 "" 1 "
+" {XPPMATH 20 ">I$viqG6\"\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I$vq0
+G6\"$\"\"!F&" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I$viwG6\"\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 ">I$vw0G6\"$\"\"!F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I%viDbG6\"\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I%vDb0
+G6\"$\"\"!F&" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 295 40 " Porosity prof
+ile and cross section area" }}{EXCHG {PARA 0 "" 0 "" {TEXT 26 5 "vipor
+" }{TEXT 294 86 ": depth dependency of porosity. 0: constant, else cha
+nging with depth (i.e. distance)\n" }{TEXT 26 5 "vpor0" }{TEXT 294 50 
+": porosity value (either constant or else at x=0)\n" }{TEXT 26 6 "via
+rea" }{TEXT 294 96 ": depth dependency of cross section area. 0: const
+ant, else changing with depth (i.e. distance)\n" }{TEXT 26 6 "varea0" 
+}{TEXT 294 59 ": cross section area (either constant or else at x=0, L
+^2)\n" }{TEXT 294 99 "- user specified profiles of por(x) or area(x) m
+ust be defined in the fortran subroutine porarea.f." }}}{EXCHG {PARA 0
+ "> " 0 "" {MPLTEXT 1 0 13 "vipor := 0 ;\n" }{MPLTEXT 1 0 15 "vpor0 :=
+ 1.0 ;\n" }{MPLTEXT 1 0 14 "viarea := 0 ;\n" }{MPLTEXT 1 0 15 "varea0 \+
+:= 1.0 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I&viporG6\"\"\"!" }}{PARA 
+11 "" 1 "" {XPPMATH 20 ">I&vpor0G6\"$\"#5!\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I'viareaG6\"\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I'va
+rea0G6\"$\"#5!\"\"" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 295 25 " Tempera
+ture and salinity" }}{PARA 0 "" 0 "" {TEXT 26 4 "T_C:" }{TEXT 294 22 "
+ temperature (Celsius)" }}{PARA 0 "" 0 "" {TEXT 26 1 "S" }{TEXT 294 
+18 " : salinity (PSU)\n" }{TEXT 294 67 "T and S are used to calculate \+
+the molecular diffusion coefficients\n" }{TEXT 294 32 "T: absolute tem
+perature (Kelvin)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "T_C := \+
+23. ;\n" }{MPLTEXT 1 0 15 "S := 1.0e-10 ;\n" }{MPLTEXT 1 0 19 "T := T_
+C + 273.15 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I$T_CG6\"$\"#B\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 ">I\"SG6\"$\"#5!#6" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I\"TG6\"$\"&:'H!\"#" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT 
+295 24 " Grid and discretization" }}{PARA 0 "" 0 "" {TEXT 26 3 "Dt:" }
+{TEXT 294 42 " time step of numerical integration (T). \n" }{TEXT 294 
+98 "note that there are options defined in drivervalues.f that allow a
+utomatical selection of timestep" }}{PARA 0 "" 0 "" {TEXT 26 6 "nnodes
+" }{TEXT 294 42 ": number of nodes in the spatial domain. \n" }{TEXT 
+294 95 "for a regular grid, the grid spacing of the concentration prof
+ile is then depth_max/(nnodes-1)\n" }{TEXT 26 7 "vigridv" }{TEXT 294 
+17 ": type of grid. \n" }{TEXT 294 39 "0 is for regular, evenly spaced
+ grid, \n" }{TEXT 294 77 "else the user needs to specify the grid in t
+he fortran subroutine gridsetup.f" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT
+ 1 0 14 "Dt := 0.005 ;\n" }{MPLTEXT 1 0 13 "nnodes := 3;\n" }{MPLTEXT 
+1 0 13 "vigrid := 0 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I#DtG6\"$\"\"&
+!\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I'nnodesG6\"\"\"$" }}{PARA 11 "
+" 1 "" {XPPMATH 20 ">I'vigridG6\"\"\"!" }}}}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT 296 38 " Reaction Network - Size and Variables" }}{SECT 0 {PARA 
+5 "" 0 "" {TEXT 295 25 " Size of reaction network" }}{PARA 0 "" 0 "" 
+{TEXT 26 9 "nsolids :" }{TEXT 294 26 " number of solid species \n" }
+{TEXT 26 12 "ndissolved :" }{TEXT 294 30 " number of dissolved species
+ \n" }{TEXT 26 8 "ncompo :" }{TEXT 294 26 " total number of species \n
+" }{TEXT 26 12 "nreactions :" }{TEXT 294 56 " total number of reaction
+s (including equilibrium rxns) " }}{PARA 0 "" 0 "" {TEXT 26 9 "neqrxns
+ :" }{TEXT 294 31 " number of equilibrium reaction" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 15 "nsolids := 4 ;\n" }{MPLTEXT 1 0 18 "ndissolv
+ed := 0 ;\n" }{MPLTEXT 1 0 33 "ncompo := nsolids + ndissolved ;\n" }
+{MPLTEXT 1 0 19 "nreactions := 12 ;\n" }{MPLTEXT 1 0 14 "neqrxns := 0 \+
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(nsolidsG6\"\"\"%" }}{PARA 11 "" 
+1 "" {XPPMATH 20 ">I+ndissolvedG6\"\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 ">I'ncompoG6\"\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I+nreactionsG
+6\"\"#7" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(neqrxnsG6\"\"\"!" }}}}
+{SECT 0 {PARA 5 "" 0 "" {TEXT 295 18 " List of variables" }}{PARA 0 ""
+ 0 "" {TEXT 26 10 "variables:" }{TEXT 294 39 " list of variables to mo
+del. example: \n" }{TEXT 26 11 "listsolids:" }{TEXT 294 43 " species n
+umber which is a SOLID species. \n" }{TEXT 294 70 "note: all other var
+iables are temporary and are NOT parsed to the ACG\n" }{TEXT 294 1 "\n
+" }{TEXT 250 10 "Example: \n" }{TEXT 251 56 "variables:=[O2, so4, MnOx
+, FeOx, hco3, co3, hplus, hs];\n" }{TEXT 252 20 "listsolids: = [3,4];"
+ }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 " variables := [sp_C, sp_H
+, sp_N, sp_l] ;\n" }{MPLTEXT 1 0 25 "listsolids := [1,2,3,4] ;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 ">I*variablesG6\"7&I%sp_CGF$I%sp_HGF$I%sp
+_NGF$I%sp_lGF$" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I+listsolidsG6\"7&\"
+\"\"\"\"#\"\"$\"\"%" }}}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 296 28 " Bioge
+ochemistry - Rate laws" }}{PARA 0 "" 0 "" {TEXT 294 14 "Definition of 
+" }{TEXT 253 17 "kinetic rate laws" }}{PARA 0 "" 0 "" {TEXT 26 8 "rate
+.i :" }{TEXT 294 18 " array of rates. \n" }{TEXT 254 76 "- For equilib
+rium rate expression, a kinetic rate MUST be specified as well." }
+{TEXT 294 297 " It will be overwritten in the equilibrium section belo
+w, but you need it as space holder and stoichiometry. Furthermore, the
+ steadystate module uses detailed balancing method with fast kinetics.
+ Therefore, in the example below, kf will have to be defined as a rath
+er large number and kb = kf*Keq\n" }{TEXT 294 70 "note: all other vari
+ables are temporary and are NOT parsed to the ACG\n" }{TEXT 294 2 "- "
+ }{TEXT 255 22 "conditional statements" }{TEXT 294 454 ": if a rate la
+w depends on a conditional statement you need to make use of the subro
+utine switches.f. Example: dissolution (Rd) is only to take place at u
+ndersaturation, thus  Rd= f(saturation). If saturation > 1, Rd>0, else
+ Rd=0. This canbe implemented as Rd:=k*H1*saturation, where H1 is togg
+led between 0 and 1. Rather than giving the condition here in maple, f
+or now you need to do this in \"switches.f\", where you program the co
+nditions for H1, e.g. " }{TEXT 256 31 "H1=0, If (A*B/K>1) then H1 = 1.
+" }{TEXT 294 1 "\n" }{TEXT 294 2 " \n" }{TEXT 257 10 "example: \n" }
+{TEXT 258 61 "rate1 := 1000.*O2*hs; # rate law for 2O2 + HS -> SO4 + H
+plus\n" }{TEXT 259 88 "rate2 := kf*hplus*co3 - kb*hco3; # kinetic rate
+ law for HCO3 = CO3 + Hplus (equilibrium)" }}{SECT 0 {PARA 4 "" 0 "" 
+{TEXT 298 0 "" }}{EXCHG {PARA 4 "" 0 "" {TEXT 298 25 " Primary redox r
+eactions " }{HYPERLNK 17 "WWW" 4 "http://www.geo.uu.nl/Research/Geoche
+mistry/kb/Knowledgebook/Hetero3.pdf" "" }{TEXT 298 0 "" }{MPLTEXT 1 0 
+0 "" }}}{PARA 4 "" 0 "" {TEXT 298 31 " Sulfide Re-oxidation reactions"
+ }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "r_term := k_deg*" }
+{MPLTEXT 1 0 35 "(sp_C + sp_H + sp_N + sp_l)/(K_s + " }{MPLTEXT 1 0 
+30 "(sp_C + sp_H + sp_N + sp_l)) ;" }{MPLTEXT 1 0 1 " " }{MPLTEXT 1 0 
+37 "#(sp_C + sp_H + sp_N + sp_l)*k_deg ;\n" }{MPLTEXT 1 0 26 "r_term1 \+
+:= r_term*fact1 ;\n" }{MPLTEXT 1 0 26 "r_term2 := r_term*fact2 ;\n" }
+{MPLTEXT 1 0 36 "r_term3 := r_term*(1-fact1-fact2) ;\n" }{MPLTEXT 1 0 
+1 "#" }{MPLTEXT 1 0 122 "rate1 := r_term * 1/(1 + alpha_C*sp_C/(sp_l+s
+p_H+sp_N) + alpha_H*sp_H/(sp_l+sp_C+sp_N) + alpha_N*sp_N/(sp_l+sp_C+sp
+_H)) ;\n" }{MPLTEXT 1 0 1 "#" }{MPLTEXT 1 0 9 "rate2 := " }{MPLTEXT 1 
+0 39 "r_term * alpha_C*sp_C/(sp_l+sp_H+sp_N)/" }{MPLTEXT 1 0 99 "(1 + \+
+alpha_C*sp_C/(sp_l+sp_H+sp_N) + alpha_H*sp_H/(sp_l+sp_C+sp_N) + alpha_
+N*sp_N/(sp_l+sp_C+sp_H))" }{MPLTEXT 1 0 3 " ;\n" }{MPLTEXT 1 0 1 "#" }
+{MPLTEXT 1 0 9 "rate3 := " }{MPLTEXT 1 0 39 "r_term * alpha_H*sp_H/(sp
+_l+sp_C+sp_N)/" }{MPLTEXT 1 0 99 "(1 + alpha_C*sp_C/(sp_l+sp_H+sp_N) +
+ alpha_H*sp_H/(sp_l+sp_C+sp_N) + alpha_N*sp_N/(sp_l+sp_C+sp_H))" }
+{MPLTEXT 1 0 1 " " }{MPLTEXT 1 0 2 ";\n" }{MPLTEXT 1 0 1 "#" }{MPLTEXT
+ 1 0 9 "rate4 := " }{MPLTEXT 1 0 39 "r_term * alpha_N*sp_N/(sp_l+sp_C+
+sp_H)/" }{MPLTEXT 1 0 99 "(1 + alpha_C*sp_C/(sp_l+sp_H+sp_N) + alpha_H
+*sp_H/(sp_l+sp_C+sp_N) + alpha_N*sp_N/(sp_l+sp_C+sp_H))" }{MPLTEXT 1 
+0 1 " " }{MPLTEXT 1 0 2 ";\n" }{MPLTEXT 1 0 29 "rate1 := r_term1*(1-al
+pha_C1*" }{MPLTEXT 1 0 34 "sp_C/(sp_l+sp_H+sp_N)/(1+alpha_C1*" }
+{MPLTEXT 1 0 25 "sp_C/(sp_l+sp_H+sp_N)) - " }{MPLTEXT 1 0 9 "alpha_H1*
+" }{MPLTEXT 1 0 34 "sp_H/(sp_l+sp_C+sp_N)/(1+alpha_H1*" }{MPLTEXT 1 0 
+25 "sp_H/(sp_l+sp_C+sp_N)) - " }{MPLTEXT 1 0 9 "alpha_N1*" }{MPLTEXT 
+1 0 34 "sp_N/(sp_l+sp_C+sp_H)/(1+alpha_N1*" }{MPLTEXT 1 0 22 "sp_N/(sp
+_l+sp_C+sp_H))" }{MPLTEXT 1 0 3 ") ;" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 
+1 0 17 "rate2 := r_term1*" }{MPLTEXT 1 0 9 "alpha_C1*" }{MPLTEXT 1 0 
+34 "sp_C/(sp_l+sp_H+sp_N)/(1+alpha_C1*" }{MPLTEXT 1 0 24 "sp_C/(sp_l+s
+p_H+sp_N)) ;" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 17 "rate3 := r_term1*
+" }{MPLTEXT 1 0 67 "alpha_H1*sp_H/(sp_l+sp_C+sp_N)/(1+alpha_H1*sp_H/(s
+p_l+sp_C+sp_N)) ;" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 17 "rate4 := r_t
+erm1*" }{MPLTEXT 1 0 67 "alpha_N1*sp_N/(sp_l+sp_C+sp_H)/(1+alpha_N1*sp
+_N/(sp_l+sp_C+sp_H)) ;" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 29 "rate5 :
+= r_term2*(1-alpha_C2*" }{MPLTEXT 1 0 196 "sp_C/(sp_l+sp_H+sp_N)/(1+al
+pha_C2*sp_C/(sp_l+sp_H+sp_N)) - alpha_H2*sp_H/(sp_l+sp_C+sp_N)/(1+alph
+a_H2*sp_H/(sp_l+sp_C+sp_N)) - alpha_N2*sp_N/(sp_l+sp_C+sp_H)/(1+alpha_
+N2*sp_N/(sp_l+sp_C+sp_H))) ;\n" }{MPLTEXT 1 0 85 "rate6 := r_term2*alp
+ha_C2*sp_C/(sp_l+sp_H+sp_N)/(1+alpha_C2*sp_C/(sp_l+sp_H+sp_N)) ;\n" }
+{MPLTEXT 1 0 85 "rate7 := r_term2*alpha_H2*sp_H/(sp_l+sp_C+sp_N)/(1+al
+pha_H2*sp_H/(sp_l+sp_C+sp_N)) ;\n" }{MPLTEXT 1 0 84 "rate8 := r_term2*
+alpha_N2*sp_N/(sp_l+sp_C+sp_H)/(1+alpha_N2*sp_N/(sp_l+sp_C+sp_H)) ;" }
+{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 225 "rate9 := r_term3*(1-alpha_C3*sp
+_C/(sp_l+sp_H+sp_N)/(1+alpha_C3*sp_C/(sp_l+sp_H+sp_N)) - alpha_H3*sp_H
+/(sp_l+sp_C+sp_N)/(1+alpha_H3*sp_H/(sp_l+sp_C+sp_N)) - alpha_N3*sp_N/(
+sp_l+sp_C+sp_H)/(1+alpha_N3*sp_N/(sp_l+sp_C+sp_H))) ;\n" }{MPLTEXT 1 
+0 86 "rate10 := r_term3*alpha_C3*sp_C/(sp_l+sp_H+sp_N)/(1+alpha_C3*sp_
+C/(sp_l+sp_H+sp_N)) ;\n" }{MPLTEXT 1 0 86 "rate11 := r_term3*alpha_H3*
+sp_H/(sp_l+sp_C+sp_N)/(1+alpha_H3*sp_H/(sp_l+sp_C+sp_N)) ;\n" }
+{MPLTEXT 1 0 85 "rate12 := r_term3*alpha_N3*sp_N/(sp_l+sp_C+sp_H)/(1+a
+lpha_N3*sp_N/(sp_l+sp_C+sp_H)) ;" }{MPLTEXT 1 0 1 "\n" }}{PARA 11 "" 1
+ "" {XPPMATH 20 ">I'r_termG6\"*(I&k_degGF$\"\"\",*I%sp_CGF$F'I%sp_HGF$
+F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'F)F'F*F'F+F'F,F'!\"\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 ">I(r_term1G6\"**I&k_degGF$\"\"\",*I%sp_CGF$F'I
+%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'F)F'F*F'F+F'F,F'!\"\"I&f
+act1GF$F'" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(r_term2G6\"**I&k_degGF$
+\"\"\",*I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'F)F'
+F*F'F+F'F,F'!\"\"I&fact2GF$F'" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(r_te
+rm3G6\"**I&k_degGF$\"\"\",*I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F
+'F',,I$K_sGF$F'F)F'F*F'F+F'F,F'!\"\",(F'F'I&fact1GF$F/I&fact2GF$F/F'" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 ">I&rate1G6\"*,I&k_degGF$\"\"\",*I%sp_C
+GF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'F)F'F*F'F+F'F,F'!
+\"\"I&fact1GF$F',*F'F'**I)alpha_C1GF$F'F)F',(F,F'F*F'F+F'F/,&F'F'*(F3F
+'F)F'F4F/F'F/F/**I)alpha_H1GF$F'F*F',(F,F'F)F'F+F'F/,&F'F'*(F8F'F*F'F9
+F/F'F/F/**I)alpha_N1GF$F'F+F',(F,F'F)F'F*F'F/,&F'F'*(F=F'F+F'F>F/F'F/F
+/F'" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I&rate2G6\"*2I&k_degGF$\"\"\",*I
+%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'F)F'F*F'F+F'F
+,F'!\"\"I&fact1GF$F'I)alpha_C1GF$F'F)F',(F,F'F*F'F+F'F/,&F'F'*(F1F'F)F
+'F2F/F'F/" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I&rate3G6\"*2I&k_degGF$\"
+\"\",*I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'F)F'F*
+F'F+F'F,F'!\"\"I&fact1GF$F'I)alpha_H1GF$F'F*F',(F,F'F)F'F+F'F/,&F'F'*(
+F1F'F*F'F2F/F'F/" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I&rate4G6\"*2I&k_de
+gGF$\"\"\",*I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'
+F)F'F*F'F+F'F,F'!\"\"I&fact1GF$F'I)alpha_N1GF$F'F+F',(F,F'F)F'F*F'F/,&
+F'F'*(F1F'F+F'F2F/F'F/" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I&rate5G6\"*,
+I&k_degGF$\"\"\",*I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_
+sGF$F'F)F'F*F'F+F'F,F'!\"\"I&fact2GF$F',*F'F'**I)alpha_C2GF$F'F)F',(F,
+F'F*F'F+F'F/,&F'F'*(F3F'F)F'F4F/F'F/F/**I)alpha_H2GF$F'F*F',(F,F'F)F'F
++F'F/,&F'F'*(F8F'F*F'F9F/F'F/F/**I)alpha_N2GF$F'F+F',(F,F'F)F'F*F'F/,&
+F'F'*(F=F'F+F'F>F/F'F/F/F'" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I&rate6G6
+\"*2I&k_degGF$\"\"\",*I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,
+I$K_sGF$F'F)F'F*F'F+F'F,F'!\"\"I&fact2GF$F'I)alpha_C2GF$F'F)F',(F,F'F*
+F'F+F'F/,&F'F'*(F1F'F)F'F2F/F'F/" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I&r
+ate7G6\"*2I&k_degGF$\"\"\",*I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$
+F'F',,I$K_sGF$F'F)F'F*F'F+F'F,F'!\"\"I&fact2GF$F'I)alpha_H2GF$F'F*F',(
+F,F'F)F'F+F'F/,&F'F'*(F1F'F*F'F2F/F'F/" }}{PARA 11 "" 1 "" {XPPMATH 20
+ ">I&rate8G6\"*2I&k_degGF$\"\"\",*I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%s
+p_lGF$F'F',,I$K_sGF$F'F)F'F*F'F+F'F,F'!\"\"I&fact2GF$F'I)alpha_N2GF$F'
+F+F',(F,F'F)F'F*F'F/,&F'F'*(F1F'F+F'F2F/F'F/" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I&rate9G6\"*,I&k_degGF$\"\"\",*I%sp_CGF$F'I%sp_HGF$F'I%s
+p_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'F)F'F*F'F+F'F,F'!\"\",(F'F'I&fact1GF$
+F/I&fact2GF$F/F',*F'F'**I)alpha_C3GF$F'F)F',(F,F'F*F'F+F'F/,&F'F'*(F5F
+'F)F'F6F/F'F/F/**I)alpha_H3GF$F'F*F',(F,F'F)F'F+F'F/,&F'F'*(F:F'F*F'F;
+F/F'F/F/**I)alpha_N3GF$F'F+F',(F,F'F)F'F*F'F/,&F'F'*(F?F'F+F'F@F/F'F/F
+/F'" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I'rate10G6\"*2I&k_degGF$\"\"\",*
+I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'F)F'F*F'F+F'
+F,F'!\"\",(F'F'I&fact1GF$F/I&fact2GF$F/F'I)alpha_C3GF$F'F)F',(F,F'F*F'
+F+F'F/,&F'F'*(F3F'F)F'F4F/F'F/" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I'rat
+e11G6\"*2I&k_degGF$\"\"\",*I%sp_CGF$F'I%sp_HGF$F'I%sp_NGF$F'I%sp_lGF$F
+'F',,I$K_sGF$F'F)F'F*F'F+F'F,F'!\"\",(F'F'I&fact1GF$F/I&fact2GF$F/F'I)
+alpha_H3GF$F'F*F',(F,F'F)F'F+F'F/,&F'F'*(F3F'F*F'F4F/F'F/" }}{PARA 11 
+"" 1 "" {XPPMATH 20 ">I'rate12G6\"*2I&k_degGF$\"\"\",*I%sp_CGF$F'I%sp_
+HGF$F'I%sp_NGF$F'I%sp_lGF$F'F',,I$K_sGF$F'F)F'F*F'F+F'F,F'!\"\",(F'F'I
+&fact1GF$F/I&fact2GF$F/F'I)alpha_N3GF$F'F+F',(F,F'F)F'F*F'F/,&F'F'*(F3
+F'F+F'F4F/F'F/" }}}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 296 33 " Biogeochem
+istry - Stoichiometry\n" }}{PARA 0 "" 0 "" {TEXT 294 46 "Stoichiometry
+ of the biogeochemical reactions\n" }{TEXT 26 9 "d.sp.dt :" }{TEXT 
+294 66 " rates of change of sp due to the sum of biogeochemical reacti
+ons\n" }{TEXT 294 44 "note that rateX must be referred to as rX  \n" }
+{TEXT 294 2 " \n" }{TEXT 260 9 "example:\n" }{TEXT 261 16 "dO2dt := -2
+*r1;\n" }{TEXT 262 14 "dhco3dt = -r2;" }{TEXT 294 1 " " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "s_dens := 2.5 ;\n" }{MPLTEXT 1 0 
+48 "#SD := 1.0e3 * s_dens * (1.0 - por(j)) / por(j);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 ">I's_densG6\"$\"#D!\"\"" }}}{PARA 0 "" 0 "" {TEXT 294 
+0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "dsp_Cdt := - r2 - r6 \+
+- r10;" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 29 "dsp_Hdt := - r3 - r7 - \+
+r11 ;\n" }{MPLTEXT 1 0 28 "dsp_Ndt := - r4 - r8 - r12; " }{MPLTEXT 1 
+0 1 "\n" }{MPLTEXT 1 0 26 "dsp_ldt := - r1 - r5 - r9;" }}{PARA 11 "" 1
+ "" {XPPMATH 20 ">I(dsp_CdtG6\",(I#r2GF$!\"\"I#r6GF$F'I$r10GF$F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 ">I(dsp_HdtG6\",(I#r3GF$!\"\"I#r7GF$F'I$r
+11GF$F'" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(dsp_NdtG6\",(I#r4GF$!\"\"I
+#r8GF$F'I$r12GF$F'" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(dsp_ldtG6\",(I#
+r1GF$!\"\"I#r5GF$F'I#r9GF$F'" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 296 
+29 " Biogeochemistry - Equilibria" }}{PARA 0 "" 0 "" {TEXT 294 41 "Spe
+cification of equilibrium constraints\n" }{TEXT 26 10 "eqrxnsId :" }
+{TEXT 294 75 " set of kinetic reactions which are overuled by a thermo
+dynamic constraint " }}{PARA 0 "" 0 "" {TEXT 26 20 "equilibriumseqns[i
+] " }{TEXT 294 42 ": Equilibrium constraint for reaction i  \n" }{TEXT
+ 294 1 "\n" }{TEXT 263 9 "example:\n" }{TEXT 264 20 "eqrxnID := [r2,rX
+];\n" }{TEXT 265 44 "equilibriumeqns[1] := hplus*co3 - Keq*hco3;\n" }
+{TEXT 266 26 "equilibriumeqns[2] := ...;" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "eqrxnId := [] ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(e
+qrxnIdG6\"7\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "#equilibri
+umeqns[1] := b - k3*c ;" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 296 29 " Bi
+ogeochemistry - Parameters" }}{PARA 0 "" 0 "" {TEXT 32 41 "Values of r
+ates constants and parameters " }{TEXT 294 1 "\n" }{TEXT 294 82 "In th
+is section, all parameters defined in section 'Rate laws' should be de
+fined.\n" }{TEXT 26 6 "nparam" }{TEXT 294 34 ": number of parameters t
+o define \n" }{TEXT 294 21 "The list is given by " }{TEXT 26 8 "bio_na
+me" }{TEXT 294 26 "; the values collected in " }{TEXT 26 8 "bio_val." 
+}{TEXT 294 1 "\n" }{TEXT 294 60 "note that for double precision, 10 sh
+ould be written as 10.\n" }{TEXT 294 1 "\n" }{TEXT 267 9 "example:\n" 
+}{TEXT 268 11 "nparam:=4;\n" }{TEXT 269 30 "bio_name:=[kmo2hs,kf,kb,Ke
+q];\n" }{TEXT 270 18 "vkf :=1.0*10^(5);\n" }{TEXT 271 22 "vKeq:=1.0*10
+^(-10.4);\n" }{TEXT 272 16 "vkb :=vkf*vKeq;\n" }{TEXT 273 30 "bio_val:
+=[1000.,vkf,vkb,vKeq];" }}{PARA 0 "" 0 "" {TEXT 294 0 "" }}{PARA 0 "" 
+0 "" {TEXT 294 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "nparam
+ := 20 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I'nparamG6\"\"#?" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "bio_name := [k_deg, K_s, alp
+ha_C1, alpha_H1, alpha_N1, " }{MPLTEXT 1 0 30 "alpha_C2, alpha_H2, alp
+ha_N2, " }{MPLTEXT 1 0 30 "alpha_C3, alpha_H3, alpha_N3, " }{MPLTEXT 
+1 0 77 "Rstd_C, Rstd_H, Rstd_N, c_tot, delta_C0, delta_H0, delta_N0, f
+act1, fact2] ; " }}{PARA 11 "" 1 "" {XPPMATH 20 ">I)bio_nameG6\"76I&k_
+degGF$I$K_sGF$I)alpha_C1GF$I)alpha_H1GF$I)alpha_N1GF$I)alpha_C2GF$I)al
+pha_H2GF$I)alpha_N2GF$I)alpha_C3GF$I)alpha_H3GF$I)alpha_N3GF$I'Rstd_CG
+F$I'Rstd_HGF$I'Rstd_NGF$I&c_totGF$I)delta_C0GF$I)delta_H0GF$I)delta_N0
+GF$I&fact1GF$I&fact2GF$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "
+bio_val :=[0.04+0*0.1, 0.3, 0.997, 0.950, 0.995, " }{MPLTEXT 1 0 21 "0
+.995, 0.980, 0.992, " }{MPLTEXT 1 0 21 "0.999, 0.940, 0.990, " }
+{MPLTEXT 1 0 66 "0.011237, 0.00015576, 0.00364, 1.0, 0.0, 0.0, 0.0, 0.
+85, 0.05] ; \n" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(bio_valG6\"76$\"\"%
+!\"#$\"\"$!\"\"$\"$(**!\"$$\"$]*F.$\"$&**F.F1$\"$!)*F.$\"$#**F.$\"$***
+F.$\"$S*F.$\"$!**F.$\"&P7\"!\"'$\"&wb\"!\")$\"$k$!\"&$\"#5F+$\"\"!FIFH
+FH$\"#&)F($\"\"&F(" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT 296 8 "Switches" 
+}}{PARA 0 "" 0 "" {TEXT 215 55 "Switches can be used in the rate equat
+ions. Specify in " }{TEXT 26 9 "nswitches" }{TEXT 215 114 ", how many \+
+switches are in use, name them and define the switch expressions. The \+
+switch names must also appear in " }{TEXT 26 8 "bio_name" }{TEXT 215 
+179 " and must be assigned a dummy value there. The switch equals 1 if
+ the switch expression is >0, 0 otherwise. To reference the coordinate
+s in the domain, use x_pos, y_pos and z_pos." }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 16 "nswitches := 0 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+>I*nswitchesG6\"\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "sw
+itchlist := [sw1, sw2] ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I+switchlis
+tG6\"7$I$sw1GF$I$sw2GF$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "
+switchcrit := [30.0-x(j), 1.0e-2 - x(j)] ;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I+switchcritG6\"7$,&$\"$+$!\"\"\"\"\"-I\"xGF$6#I\"jGF$F)
+,&$\"#5!\"$F*F+F)" }}}{PARA 3 "" 0 "" {TEXT 296 0 "" }}}}{SECT 0 
+{PARA 3 "" 0 "" {TEXT 296 32 " Transport - Molecular Diffusion" }}
+{PARA 0 "" 0 "" {TEXT 294 54 "Specification of the molecular diffusion
+ coefficients\n" }{TEXT 26 9 "diffdata:" }{TEXT 294 63 " molecular dif
+fusion coefficient at 0 degree celsius (cm^2/yr)\n" }{TEXT 26 11 "alph
+adata: " }{TEXT 294 59 "temperature dependence of the diffusion coeffi
+cient (1/K) \n" }{TEXT 294 88 "the in situ molecular diffusion coeffic
+ient, corrected for tortuosity is calculated as:\n" }{TEXT 294 75 "D(T
+,sal) = [(0.95-0.001*sal)* D(T=0,sal=0)*(1 + muc*T[C])]/(1-ln(por^2)) \+
+ \n" }{TEXT 274 9 "example:\n" }{TEXT 275 37 "diffdata := [100., 304.,
+0.,0.,100.];\n" }{TEXT 276 38 "alphadata:= [0.006, 0.04,0.,0.,.0.05];"
+ }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "diffdata := [0.0" }
+{MPLTEXT 1 0 4 ",0.0" }{MPLTEXT 1 0 8 ",0.0,0.0" }{MPLTEXT 1 0 4 "] ;
+\n" }{MPLTEXT 1 0 45 "alphadata := [1.0e-10,1.0e-10,1.0e-10,1.0e-10" }
+{MPLTEXT 1 0 5 "] ; \n" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I)diffdataG6
+\"7&$\"\"!F'F&F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I*alphadataG6\"7&
+$\"#5!#6F&F&F&" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 296 32 " Transport -
+ Boundary Conditions" }}{PARA 0 "" 0 "" {TEXT 294 71 "Specification of
+ upper and lower boundary conditions for each species.\n" }{TEXT 294 
+21 "There are 3 options \n" }{TEXT 294 42 "0. known concentration (Dir
+ichlet, M/L^3)\n" }{TEXT 294 51 "1. known concentration gradient (Neum
+ann, M/L^3*L)\n" }{TEXT 294 63 "2. known total (diffusive and advectiv
+e) flux (Robin, M/L^2/T)\n" }{TEXT 294 346 "technical note: option 1 a
+nd 2 involve ghost points outside the domain. If the mixing parameters
+ vary with depth, one needs to assign a mixing intensities at the ghos
+t points. By default this is done by linear extrapolation. To ovrwrite
+ this, the user has to edit gridsetup.f and advdiffcoeff.f (both at th
+e bottom; explanations are given there)\n" }{TEXT 26 8 "type_up:" }
+{TEXT 294 90 " array defining the type of condition for each species a
+t the upper boundary (0, 1 or 2) \n" }{TEXT 26 11 "bnddata_up:" }{TEXT
+ 277 1 " " }{TEXT 294 60 "array containing the values specified at the
+ upper boundary." }}{PARA 0 "" 0 "" {TEXT 26 10 "type_down:" }{TEXT 
+294 77 " array defining the type of condition for each species at the \+
+lower boundary " }}{PARA 0 "" 0 "" {TEXT 26 13 "bnddata_down:" }{TEXT 
+278 1 " " }{TEXT 294 60 "array containing the values specified at the \+
+upper boundary." }}{PARA 214 "" 0 "" {TEXT 26 0 "" }{TEXT 279 1 "\n" }
+{TEXT 280 9 "example:\n" }{TEXT 281 20 "type_up := [0,0,2];\n" }{TEXT 
+282 33 "bnddata_up := [1.4,0.001,0.001];\n" }{TEXT 283 21 "type_down :
+= [1,1,1];" }}{PARA 0 "" 0 "" {TEXT 215 27 "bnddata_down := [0.,0.,0.]
+;" }{TEXT 284 0 "" }{TEXT 215 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT
+ 1 0 19 "type_up := [2,2,2,2" }{MPLTEXT 1 0 4 "] ;\n" }{MPLTEXT 1 0 
+30 "bnddata_up := [0.0,0.0,0.0,0.0" }{MPLTEXT 1 0 5 "] ; \n" }{MPLTEXT
+ 1 0 14 "type_down := [" }{MPLTEXT 1 0 7 "2,2,2,2" }{MPLTEXT 1 0 4 "] \+
+;\n" }{MPLTEXT 1 0 17 "bnddata_down := [" }{MPLTEXT 1 0 15 "0.0,0.0,0.
+0,0.0" }{MPLTEXT 1 0 3 "] ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(type_u
+pG6\"7&\"\"#F&F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I+bnddata_upG6\"7
+&$\"\"!F'F&F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I*type_downG6\"7&\"
+\"#F&F&F&" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I-bnddata_downG6\"7&$\"\"!
+F'F&F&F&" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 296 54 " Transport - Ident
+ify species that are not transported" }}{PARA 0 "" 0 "" {TEXT 26 11 "n
+rnotransp:" }{TEXT 294 59 " number of species that are not getting tra
+nsported at all\n" }{TEXT 26 9 "notransp:" }{TEXT 294 58 " list of spe
+cies that are not getting transported at all \n" }{TEXT 294 84 "(i.e. \+
+for which the above defined dispersion and advection velocities are no
+t used!)" }}{PARA 0 "" 0 "" {TEXT 215 0 "" }}{PARA 0 "" 0 "" {TEXT 
+215 9 "example:\n" }{TEXT 215 15 "nrnotransp:=3;\n" }{TEXT 215 20 "not
+ransp := [1,3,4];" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "nrnotra
+nsp := 4 ;\n" }{MPLTEXT 1 0 27 "listnotransp := [1,2,3,4] ;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 ">I+nrnotranspG6\"\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I-listnotranspG6\"7&\"\"\"\"\"#\"\"$\"\"%" }}}}{SECT 0 
+{PARA 3 "" 0 "" {TEXT 296 19 " Initial conditions" }}{PARA 0 "" 0 "" 
+{TEXT 294 1 " " }{TEXT 26 3 "vic" }{TEXT 294 36 ": options to select i
+nitial guesses\n" }{TEXT 294 69 "- 1: read from a file \"initialconc.t
+xt\", which contains the columns \n" }{TEXT 294 43 "     z, conc(speci
+es1), conc(species2)....\n" }{TEXT 294 47 "- 2: fixed concentration, d
+efined in the array " }{TEXT 26 7 "iniconc" }}{PARA 0 "" 0 "" {TEXT 
+294 203 "- 3: individual files for each species. listinput contains th
+e species number (lenght: number of species), filenames are given in \+
+\"file_in_names\".inp, containing in column 1 the conc, in column 2 de
+pth. " }}{PARA 215 "" 0 "" {TEXT 215 1 "\n" }{TEXT 215 82 "example (on
+ly relevant input data is given for each option, assuming 17 species):
+\n" }{TEXT 285 167 "NOTE that you have to provide something for all nc
+omp species in the arrays iniconc, listinput and file_in_names, EVEN I
+F YOU DON'T USE IT WITH THE OPTION YOU SELECTED" }{TEXT 215 1 "\n" }
+{TEXT 215 8 "vic:=1;\n" }{TEXT 215 30 "vic:=2;iniconc:=[0.,2.,...]; \n
+" }{TEXT 215 64 "vic:=3;listinput:=[1,2,...,17];file_in_names:=[o2,no3
+,...,sp17];" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "vic := 2 ;\n"
+ }{MPLTEXT 1 0 63 "iniconc := [c_tot*(1+delta_C0)*Rstd_C/(1+(1+delta_C
+0)*Rstd_C), " }{MPLTEXT 1 0 49 "c_tot*(1+delta_H0)*Rstd_H/(1+(1+delta_
+H0)*Rstd_H)" }{MPLTEXT 1 0 2 ", " }{MPLTEXT 1 0 51 "c_tot*(1+delta_N0)
+*Rstd_N/(1+(1+delta_N0)*Rstd_N), " }{MPLTEXT 1 0 9 "c_tot*(1-" }
+{MPLTEXT 1 0 46 "(1+delta_C0)*Rstd_C/(1+(1+delta_C0)*Rstd_C) - " }
+{MPLTEXT 1 0 46 "(1+delta_H0)*Rstd_H/(1+(1+delta_H0)*Rstd_H) - " }
+{MPLTEXT 1 0 46 "(1+delta_N0)*Rstd_N/(1+(1+delta_N0)*Rstd_N))] " }
+{MPLTEXT 1 0 2 ";\n" }{MPLTEXT 1 0 25 "listinput := [1,2,3,4] ;\n" }
+{MPLTEXT 1 0 18 "file_in_names := [" }{MPLTEXT 1 0 22 "sp_C, sp_H, sp_
+N, sp_l" }{MPLTEXT 1 0 3 "] ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I$vicG
+6\"\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(iniconcG6\"7&**I&c_totGF$
+\"\"\",&F(F(I)delta_C0GF$F(F(I'Rstd_CGF$F(,&F(F(*&F)F(F+F(F(!\"\"**F'F
+(,&F(F(I)delta_H0GF$F(F(I'Rstd_HGF$F(,&F(F(*&F0F(F2F(F(F.**F'F(,&F(F(I
+)delta_N0GF$F(F(I'Rstd_NGF$F(,&F(F(*&F6F(F8F(F(F.*&F'F(,*F(F(*(F)F(F+F
+(F,F.F.*(F0F(F2F(F3F.F.*(F6F(F8F(F9F.F.F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I*listinputG6\"7&\"\"\"\"\"#\"\"$\"\"%" }}{PARA 11 "" 1 
+"" {XPPMATH 20 ">I.file_in_namesG6\"7&I%sp_CGF$I%sp_HGF$I%sp_NGF$I%sp_
+lGF$" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 296 7 " Output" }}{PARA 0 "" 0
+ "" {TEXT 26 8 "noutput:" }{TEXT 294 33 " number of species to be prin
+ted\n" }{TEXT 26 9 "nroutput:" }{TEXT 294 31 " number of rates to be p
+rinted\n" }{TEXT 26 11 "listoutput:" }{TEXT 294 25 " species number to
+ print\n" }{TEXT 26 12 "listroutput:" }{TEXT 294 22 " rate number to p
+rint\n" }{TEXT 26 11 "file_names:" }{TEXT 294 55 " Respective file nam
+e for each of the species to print\n" }{TEXT 26 12 "file_rnames:" }
+{TEXT 294 53 " Respective file name for each of the rates to print\n" 
+}{TEXT 26 12 "time_iniout:" }{TEXT 294 56 " First time (in years) for \+
+which a printout is requested" }}{PARA 0 "" 0 "" {TEXT 26 13 "time_int
+vout:" }{TEXT 294 88 " time interval (in years) at which the printing \+
+is performed, starting from time_iniout\n" }{TEXT 294 1 "\n" }{TEXT 
+286 9 "example:\n" }{TEXT 287 12 "noutput:=4;\n" }{TEXT 288 23 "listou
+tput:=[1,2,3,5];\n" }{TEXT 289 35 "file_names:=[o2, so4, MnOx, hco3];
+\n" }{TEXT 290 18 "time_iniout:=10.;\n" }{TEXT 291 20 "time_intvout:= \+
+100.;" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "noutput := 4 ;\n" }
+{MPLTEXT 1 0 17 "nroutput := 12 ;\n" }{MPLTEXT 1 0 26 "listoutput := [
+1,2,3,4] ;\n" }{MPLTEXT 1 0 46 "listroutput := [1,2,3,4,5,6,7,8,9,10,1
+1,12] ;\n" }{MPLTEXT 1 0 15 "file_names := [" }{MPLTEXT 1 0 22 "sp_C, \+
+sp_H, sp_N, sp_l" }{MPLTEXT 1 0 4 "] ;\n" }{MPLTEXT 1 0 44 "file_rname
+s := [xrate1,xrate2,xrate3,xrate4," }{MPLTEXT 1 0 28 "xrate5,xrate6,xr
+ate7,xrate8," }{MPLTEXT 1 0 30 "xrate9,xrate10,xrate11,xrate12" }
+{MPLTEXT 1 0 4 "] ;\n" }{MPLTEXT 1 0 22 "time_iniout := 0.01 ;\n" }
+{MPLTEXT 1 0 21 "time_intvout := 2.5 ;" }}{PARA 11 "" 1 "" {XPPMATH 20
+ ">I(noutputG6\"\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I)nroutputG6\"
+\"#7" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I+listoutputG6\"7&\"\"\"\"\"#\"
+\"$\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I,listroutputG6\"7.\"\"\"\"
+\"#\"\"$\"\"%\"\"&\"\"'\"\"(\"\")\"\"*\"#5\"#6\"#7" }}{PARA 11 "" 1 ""
+ {XPPMATH 20 ">I+file_namesG6\"7&I%sp_CGF$I%sp_HGF$I%sp_NGF$I%sp_lGF$"
+ }}{PARA 11 "" 1 "" {XPPMATH 20 ">I,file_rnamesG6\"7.I'xrate1GF$I'xrat
+e2GF$I'xrate3GF$I'xrate4GF$I'xrate5GF$I'xrate6GF$I'xrate7GF$I'xrate8GF
+$I'xrate9GF$I(xrate10GF$I(xrate11GF$I(xrate12GF$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I,time_inioutG6\"$\"\"\"!\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I-time_intvoutG6\"$\"#D!\"\"" }}}}{SECT 0 {PARA 3 "" 0 "
+" {TEXT 296 13 " Optimization" }}{PARA 0 "" 0 "" {TEXT 294 234 "there \+
+are several optimization options available. here you can specify what \+
+needs to be optimized and where the data is stored. to identify what k
+ind of algorithm you want to use please select the appropriate options
+ in drivervalues.f" }}{PARA 0 "" 0 "" {TEXT 26 7 "nopt_v:" }{TEXT 294 
+38 " number of parameters to be optimized\n" }{TEXT 26 8 "ntopt_v:" }
+{TEXT 294 56 " number of time points where measurements are available
+\n" }{TEXT 26 11 "nparam_opt:" }{TEXT 294 86 " total number of paramet
+ers. can include the nparam but also the physical parameters.\n" }
+{TEXT 26 11 "maxxmeas_v:" }{TEXT 294 86 " maximum number of depth poin
+ts at any given time measured (used to make array sizes)\n" }{TEXT 26 
+12 "maxspmeas_v:" }{TEXT 294 81 " maximum number of species measured a
+t any given time (used to make array sizes)\n" }{TEXT 26 9 "opt_name:"
+ }{TEXT 294 99 " names of the parameters. they have to match the names
+ given above, so best you make a copy paste!\n" }{TEXT 26 8 "idpar_v:"
+ }{TEXT 294 74 " identify the parameters to be optimized from the para
+meter list opt_name\n" }{TEXT 26 14 "filemeas_name:" }{TEXT 294 48 " n
+ame of the files containing the measured data\n" }{TEXT 294 63 "if nop
+t_v is set to 0 then the rest of the input doesn't matter" }}{PARA 0 "
+" 0 "" {TEXT 215 9 "example:\n" }{TEXT 215 52 "nopt_v := 2; # number o
+f parameters to be optimized\n" }{TEXT 215 55 "ntopt_v := 3; # number \+
+of timepoints with measurements\n" }{TEXT 215 101 "nparam_opt := npara
+m; # total number of parameters, set equal to all parameters except ph
+yscial ones\n" }{TEXT 215 67 "maxxmeas_v:=20; # maximum 20 points in a
+ profile at any given time\n" }{TEXT 215 63 "maxspmeas_v :=2; # maximu
+m 2 species measured at one timepoint\n" }{TEXT 215 149 "opt_name := b
+ioname; # (note that this does not include the physical parameters! if
+ you want them to be adapted you need to specify them explicitly)\n" }
+{TEXT 215 65 "idpar_v:= [1,3]; # optimize parameters 1 and 3 in the ab
+ove list\n" }{TEXT 215 94 "filemeas_name:= [meas1.dat, meas2.dat, meas
+3.dat]; # filenames with measurements at timepoints" }{TEXT 292 0 "" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "nopt_v := 0 ;\n" }{MPLTEXT 
+1 0 15 "ntopt_v := 0 ;\n" }{MPLTEXT 1 0 18 "nparam_opt := 0 ;\n" }
+{MPLTEXT 1 0 17 "maxxmeas_v := 0;\n" }{MPLTEXT 1 0 18 "maxspmeas_v := \+
+0;\n" }{MPLTEXT 1 0 16 "opt_name := [];\n" }{MPLTEXT 1 0 15 "idpar_v :
+= [];\n" }{MPLTEXT 1 0 20 "filemeas_name := [];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I'nopt_vG6\"\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(nt
+opt_vG6\"\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I+nparam_optG6\"\"\"!
+" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I+maxxmeas_vG6\"\"\"!" }}{PARA 11 "
+" 1 "" {XPPMATH 20 ">I,maxspmeas_vG6\"\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I)opt_nameG6\"7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I(id
+par_vG6\"7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I.filemeas_nameG6\"7\""
+ }}}}{SECT 0 {PARA 216 "" 0 "" {TEXT 215 20 " Maple specific info" }
+{HYPERLNK 17 "" 4 "http://C:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Docume
+nts\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\pie
+rre\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\plo
+t_web\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\f
+igures_files
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\slide0
+001.htm" "" }{TEXT 215 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT 294 80 "dir
+_f: directory where the FORTRAN routines and Maple spread.m files are \+
+parsed\n" }{TEXT 294 40 "format Mac: \"Macinthosh HD:UU:...:code\"\n" 
+}{TEXT 294 33 "format PC: \"C:\\\\maple\\\\...\\\\code\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 215 88 "WAS: dir_f := \"C:\\\\Dokumente und Eins
+tellungen\\\\centler\\\\Desktop\\\\Labor\\\\Simulations\": \n" }{TEXT 
+215 19 "currentdir(dir_f):\n" }{TEXT 215 17 "save \"spread.m\" ;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "dir_f := \"C:\\\\Swamini
+\\\\Simulations\\\\BRNSPackage-reference\" :\n" }{MPLTEXT 1 0 20 "curr
+entdir(dir_f) :\n" }{MPLTEXT 1 0 61 "parse(sprintf(\"save %q,\\\"sprea
+d.m\\\";\",anames()), statement) ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "\"now execute proces
+sor - make sure the directories are set correctly\";" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "Q^onow~execute~processor~-~make~sure~the~directories~a
+re~set~correctly6\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 294 0 "" }}}
+{SECT 0 {PARA 4 "" 0 "" {TEXT 298 0 "" }{HYPERLNK 17 "ACG" 1 "processo
+.mws" "" }{TEXT 298 0 "" }}}}}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 75 100 1802 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

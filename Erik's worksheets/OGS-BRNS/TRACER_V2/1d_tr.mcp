@@ -1,0 +1,10 @@
+|------------------ Written with ogs5py ------------------|
+#COMPONENT_PROPERTIES
+  $NAME
+   tracer
+  $MOBILE
+   1
+  $DIFFUSION
+   1 1e-09
+#STOP
+|-- Written with ogs5py (0.6.3) on: 2019-05-22_21-01-00 --|

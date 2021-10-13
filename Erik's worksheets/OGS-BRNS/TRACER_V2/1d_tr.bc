@@ -1,0 +1,21 @@
+|------------------ Written with ogs5py ------------------|
+#BOUNDARY_CONDITION
+  $PCS_TYPE
+   RICHARDS_FLOW
+  $PRIMARY_VARIABLE
+   PRESSURE1
+  $GEO_TYPE
+   POINT PNULL
+  $DIS_TYPE
+   CONSTANT -9000.0
+#BOUNDARY_CONDITION
+  $PCS_TYPE
+   MASS_TRANSPORT
+  $PRIMARY_VARIABLE
+   tracer
+  $GEO_TYPE
+   POINT PONE
+  $DIS_TYPE
+   CONSTANT 2
+#STOP
+|-- Written with ogs5py (0.6.3) on: 2019-05-22_21-01-00 --|

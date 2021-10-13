@@ -1,0 +1,26 @@
+|------------------ Written with ogs5py ------------------|
+#OUTPUT
+  $NOD_VALUES
+   PRESSURE1
+   SATURATION1
+  $GEO_TYPE
+   DOMAIN
+  $TIM_TYPE
+   STEPS 10
+  $DAT_TYPE
+   TECPLOT
+  $PCS_TYPE
+   RICHARDS_FLOW
+#OUTPUT
+  $NOD_VALUES
+   tracer
+  $GEO_TYPE
+   DOMAIN
+  $TIM_TYPE
+   STEPS 10
+  $DAT_TYPE
+   TECPLOT
+  $PCS_TYPE
+   MASS_TRANSPORT
+#STOP
+|-- Written with ogs5py (0.6.3) on: 2019-05-22_21-01-00 --|

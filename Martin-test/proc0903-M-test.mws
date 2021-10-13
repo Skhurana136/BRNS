@@ -1,0 +1,370 @@
+{VERSION 7 0 "Windows 7" "7.0" }
+{USTYLETAB {PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0
+ 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 8 4 2 0 2 0 2 2 -1 1 }{PSTYLE "War
+ning" -1 7 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0
+ 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Left Justified Maple Outp
+ut" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 
+}1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Fixed Width" -1 17 1 {CSTYLE "
+" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 
+0 2 2 -1 1 }{PSTYLE "Help" -1 10 1 {CSTYLE "" -1 -1 "Courier" 1 9 0 0 
+255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Head
+ing 4" -1 20 1 {CSTYLE "" -1 -1 "Times" 1 10 0 0 0 1 1 1 2 2 2 2 1 0 0
+ 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Line Printed Output" -1 6 1
+ {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 
+0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "T
+imes" 1 14 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 8 2 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2
+ 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 3" 
+-1 5 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 1 0 0 1 }1 1 
+0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Diagnostic" -1 9 1 {CSTYLE "" -1 -1
+ "Courier" 1 10 64 128 64 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2
+ 2 -1 1 }{PSTYLE "Ordered List 1" -1 200 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE 
+"Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2
+ 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Ordered List 2" 
+-1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 
+1 0 0 3 3 2 36 2 0 2 2 -1 1 }{PSTYLE "Ordered List 3" -1 202 1 {CSTYLE
+ "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 72 2
+ 0 2 2 -1 1 }{PSTYLE "Ordered List 4" -1 203 1 {CSTYLE "" -1 -1 "Times
+" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 108 2 0 2 2 -1 1 }
+{PSTYLE "Ordered List 5" -1 204 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 108 2 0 2 2 -1 1 }{PSTYLE "Annota
+tion Title" -1 205 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2
+ 1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }{PSTYLE "HyperlinkError" -1 
+206 1 {CSTYLE "" -1 -1 "Courier" 1 12 255 0 255 1 2 2 1 2 2 1 1 0 0 1 
+}1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "HyperlinkWarning" -1 207 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 0 0 255 1 2 2 1 2 2 1 1 0 0 1 }1 1 0 0
+ 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2
+ 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "List Item" 
+-1 14 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1
+ 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Dash Item" -1 16 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 
+-1 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255
+ 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Title" 
+-1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 0 0 1 }3 1
+ 0 0 12 12 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2
+ 2 2 2 1 0 0 1 }3 1 0 0 8 8 2 0 2 0 2 2 -1 1 }{CSTYLE "Help Variable" 
+-1 25 "Courier" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Ita
+lic Small209217" -1 200 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "Maple Comment" -1 21 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0
+ 1 }{CSTYLE "2D Math Italic Small201203" -1 201 "Times" 1 1 0 0 0 1 1 
+2 2 2 2 2 0 0 0 1 }{CSTYLE "Popup" -1 31 "Times" 1 12 0 128 128 1 1 2 
+1 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small212219" -1 202 "Times" 1
+ 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Atomic Variable" -1 203 "Time
+s" 1 12 175 0 175 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plot Text" -1 28 "Ti
+mes" 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Code" -1 204 "Courier" 
+1 12 255 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic" -1 3 "Tim
+es" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Small" -1 7 "Ti
+mes" 1 1 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Bold Small" -1 
+10 "Times" 1 1 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Bold" -1 39 
+"Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Menus" -1 36 "
+Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small
+211233" -1 205 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Ma
+th Italic Small214225" -1 206 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 
+}{CSTYLE "Help Normal" -1 30 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 
+}{CSTYLE "Maple Input" -1 0 "Courier" 1 12 255 0 0 1 2 1 2 2 1 2 0 0 0
+ 1 }{CSTYLE "Header and Footer" -1 207 "Times" 1 10 0 0 0 1 2 2 2 2 2 
+2 0 0 0 1 }{CSTYLE "Output Labels" -1 29 "Times" 1 8 0 0 0 1 2 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "2D Math Italic Small202" -1 208 "Times" 1 1 0 0 0
+ 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small201" -1 209 "Time
+s" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Notes" -1 37 "Times"
+ 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined" -1 44 "Ti
+mes" 1 12 0 0 0 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small20
+8" -1 210 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math It
+alic Small209" -1 211 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE
+ "Text" -1 212 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plot
+ Title" -1 27 "Times" 1 10 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Defau
+lt" -1 38 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Ital
+ic Bold" -1 40 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Mapl
+e Input Placeholder" -1 213 "Courier" 1 12 200 0 200 1 2 1 2 2 1 2 0 0
+ 0 1 }{CSTYLE "LaTeX" -1 32 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Italic Small202204206" -1 214 "Times" 1 1 0 0 0 1 1 2
+ 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small215" -1 215 "Times" 1 1
+ 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small214" -1 216
+ "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Emphasized" -1
+ 22 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic \+
+Small202204207" -1 217 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Italic Small211" -1 218 "Times" 1 1 0 0 0 1 1 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "Equation Label" -1 219 "Times" 1 12 0 0 0 1 2 1 2
+ 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small210" -1 220 "Times" 1 1 0
+ 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small213" -1 221 "
+Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small2
+12" -1 222 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Ital
+ic" -1 42 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Prompt" 
+-1 1 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Bold
+" -1 5 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Hyperlink" 
+-1 17 "Times" 1 12 0 128 128 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Caption T
+ext" -1 223 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Un
+derlined Bold" -1 41 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 0 0 0 1 }{CSTYLE
+ "2D Math Italic Small201203204" -1 224 "Times" 1 1 0 0 0 1 1 2 2 2 2 
+2 0 0 0 1 }{CSTYLE "Copyright" -1 34 "Times" 1 10 0 0 0 1 2 2 2 2 2 2 
+0 0 0 1 }{CSTYLE "2D Math Italic Small202205206" -1 225 "Times" 1 1 0 
+0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Dictionary Hyperlink" -1 45 "Times
+" 1 12 147 0 15 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small21
+0233" -1 226 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math
+ Italic Small213220" -1 227 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Input" -1 19 "Times" 1 12 255 0 0 1 2 2 2 2 1 2 0 0 0 1 }
+{CSTYLE "2D Math Italic Small231" -1 228 "Times" 1 1 0 0 0 1 1 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "2D Math Italic Small202204" -1 229 "Times" 1 1 0 
+0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small202205" -1 230
+ "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Heading" -1 26
+ "Times" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Output" -1 20 "
+Times" 1 12 0 0 255 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Inert Output" 
+-1 231 "Times" 1 12 144 144 144 1 2 2 2 2 1 2 0 0 0 1 }{CSTYLE "Page N
+umber" -1 33 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help F
+ixed" -1 23 "Courier" 1 10 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Ma
+th Italic Small" -1 232 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Symbol 2" -1 16 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 
+0 1 }{CSTYLE "2D Math" -1 2 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "Help Nonterminal" -1 24 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 
+0 0 1 }{CSTYLE "Annotation Text" -1 233 "Times" 1 12 0 0 0 1 2 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "Help Maple Name" -1 35 "Times" 1 12 104 64 92 1 2
+ 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined Italic" -1 43 "Times" 1 
+12 0 0 0 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Caption Reference" -1 234 "Ti
+mes" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small20
+8215" -1 235 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math
+ Italic Small211218" -1 236 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Comment" -1 18 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Math Italic Small211216" -1 237 "Times" 1 1 0 0 0 1 1 2 2 
+2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small211217" -1 238 "Times" 1 1
+ 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small211214" -1 
+239 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic S
+mall211215" -1 240 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2
+D Math Italic Small211212" -1 241 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 
+0 1 }{CSTYLE "2D Math Italic Small211213" -1 242 "Times" 1 1 0 0 0 1 1
+ 2 2 2 2 2 0 0 0 1 }}
+{SECT 0 {EXCHG {PARA 204 "" 0 "" {TEXT 243 60 "translating the maple \+
+worksheet into executable fortran code" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 244 65 "- 3 directories(paths) have to be specified below. The f
+ormat is:" }}{PARA 0 "" 0 "" {TEXT 244 56 "on PCs: \"C:\\\\xxx\\\\yyy
+\"; on Macs: \"Macintosh HD:xxx:yyy\"\n" }{TEXT 244 104 "- This versio
+n overwrites \"switches.f\". You can avoid this by setting iswitch to \+
+a value other than 1. \n" }{TEXT 244 188 "However, if you don't create
+ switches.f automatically, a dummy subroutine switches.f of the form \+
+\"subroutine switches(j); integer j; return;end\" is required when com
+piling the fortran code" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "r
+estart ;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "iswitch:=0;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 ">I(iswitchG6\"\"\"!" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT 244 36 "point to folder where acglib resides" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "if searchtext(\"Maple 6\", kernelop
+ts(version)) = 1 then\n" }{MPLTEXT 1 0 80 "  libname := \"C:\\\\Users
+\\thullner\\\\Documents\\\\Martin\\\\BRNS\\\\acglib-Maple6\", \"C:\\\\
+" }{MPLTEXT 1 0 13 "Program Files" }{MPLTEXT 1 0 33 "\\\\BRNS\\\\Maple
+ 6\\\\lib\", libname ;\n" }{MPLTEXT 1 0 5 "else\n" }{MPLTEXT 1 0 18 " \+
+ libname := \"C:\\\\" }{MPLTEXT 1 0 28 "Users\\\\thullner\\\\Documents
+\\\\" }{MPLTEXT 1 0 12 "Martin\\\\BRNS" }{MPLTEXT 1 0 83 "\\\\BRNSPack
+age-MT\\\\acglib-Maple10\", \"C:\\\\Program Files\\\\Maple 2017\\\\lib
+\", libname ;\n" }{MPLTEXT 1 0 8 "end if; " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I(libnameG6\"6%Q`oC:\\Users\\thullner\\Documents\\Martin
+\\BRNS\\BRNSPackage-MT\\acglib-Maple10F$Q@C:\\Program~Files\\Maple~201
+7\\libF$F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "with(acg) ; w
+ith(student) : with(linalg) : with(share) :\n" }{MPLTEXT 1 0 4 "try\n"
+ }{MPLTEXT 1 0 19 " with(macrofor) : \n" }{MPLTEXT 1 0 10 "catch : ;\n
+" }{MPLTEXT 1 0 8 "end try;" }}{PARA 11 "" 1 "" {XPPMATH 20 "7CI%acg0G
+6\"I&acg0aGF$I&acg0bGF$I%acg1GF$I&acg10GF$I&acg11GF$I&acg12GF$I&acg13G
+F$I&acg14GF$I&acg15GF$I&acg16GF$I&acg17GF$I'acg17aGF$I'acg17bGF$I%acg2
+GF$I%acg3GF$I%acg4GF$I%acg5GF$I%acg6GF$I%acg7GF$I%acg8GF$I%acg9GF$I#p0
+GF$I#p1GF$I$p10GF$I#p2GF$I#p3GF$I#p4GF$I#p5GF$I#p6GF$I#p7GF$I#p8GF$I#p
+9GF$" }}{PARA 6 "" 1 "" {TEXT 245 70 "See ?share and ?share,contents f
+or information about the share library" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 244 17 "point to spread.m" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 12 "currentdir(\"" }{MPLTEXT 1 0 39 "C:\\\\Users\\\\thullner\\\\De
+sktop\\\\BRNS-test" }{MPLTEXT 1 0 4 "\"):\n" }{MPLTEXT 1 0 17 "read \"
+spread.m\" ;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 244 76 "possibility to o
+verwrite the directory where the fortran files are saved to\n" }{TEXT 
+244 101 "if commented out, it goes to the directory that was specified
+ in the worksheet when creating spread.m" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "dir_f:=\"C:\\\\" }{MPLTEXT 1 0 28 "Users\\\\thullner
+\\\\Documents\\\\" }{MPLTEXT 1 0 12 "Martin\\\\BRNS" }{MPLTEXT 1 0 32 
+"\\\\BRNSPackage-MT\\\\FortranFiles\":" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 67 "# If creating a DLL, assign dummy values to all undef
+ined variables" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0
+ "" {MPLTEXT 1 0 50 "if tot_time = 'tot_time' then tot_time := 1.0 fi \+
+;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "if depth_max = 'depth_max' the
+n depth_max := 1.0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "if val =
+ 'val' then val := 1.0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "if v
+iq = 'viq' then viq := 0.0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "
+if vq0 = 'vq0' then vq0 := 1.0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+35 "if viw = 'viw' then viw := 0.0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 35 "if vw0 = 'vw0' then vw0 := 0.0 fi ;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 38 "if viDb = 'viDb' then viDb := 0.0 fi ;" }}{PARA 0 "> 
+" 0 "" {MPLTEXT 1 0 38 "if vDb0 = 'vDb0' then vDb0 := 0.0 fi ;" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "if vipor = 'vipor' then vipor := 0.
+0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "if vpor0 = 'vpor0' then v
+por0 := 0.5 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "if viarea = 'vi
+area' then viarea := 0.0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "if
+ varea0 = 'varea0' then varea0 := 1.0 fi ;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 36 "if T_C = 'T_C' then T_C := 20.0 fi ;" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 30 "if S = 'S' then S := 35.0 fi ;" }}{PARA 0 "> " 0
+ "" {MPLTEXT 1 0 38 "if T = 'T' then T := T_C + 273.15 fi ;" }}{PARA 0
+ "> " 0 "" {MPLTEXT 1 0 32 "if Dt = 'Dt' then Dt := 0.1 fi ;" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 42 "if nnodes = 'nnodes' then nnodes := 3 fi \+
+;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "if vigrid = 'vigrid' then vigr
+id := 0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "if nsolids = 'nsoli
+ds' then nsolids := 0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "if nd
+issolved = 'ndissolved' then ndissolved := ncompo fi ;" }}{PARA 0 "> "
+ 0 "" {MPLTEXT 1 0 55 "if listsolids = 'listsolids' then listsolids :=
+ [] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 69 "if diffdata = 'diffdata
+' then diffdata := [seq(1.0,i=1..ncompo)] fi ;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 72 "if alphadata = 'alphadata' then alphadata := [seq(1.0
+,i=1..ncompo)] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "if type_up =
+ 'type_up' then type_up := [seq(2,i=1..ncompo)] fi ;" }}{PARA 0 "> " 0
+ "" {MPLTEXT 1 0 75 "if bnddata_up = 'bnddata_up' then bnddata_up := [
+seq(1.0,i=1..ncompo)] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "if ty
+pe_down = 'type_down' then type_down := [seq(1,i=1..ncompo)] fi ;" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 81 "if bnddata_down = 'bnddata_down' th
+en bnddata_down := [seq(0.0,i=1..ncompo)] fi ;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 54 "if nrnotransp = 'nrnotransp' then nrnotransp := 0 fi \+
+;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "if listnotransp = 'listnotrans
+p' then listnotransp := [] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "
+if vic = 'vic' then vic := 2 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+66 "if iniconc = 'iniconc' then iniconc := [seq(1.0,i=1..ncompo)] fi ;
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "if listinput = 'listinput' then
+ listinput := [seq(i,i=1..ncompo)] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 86 "if file_in_names = 'file_in_names' then file_in_names := [seq(
+dummy,i=1..ncompo)] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "if nout
+put = 'noutput' then noutput := 0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 48 "if nroutput = 'nroutput' then nroutput := 0 fi ;" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 55 "if listoutput = 'listoutput' then listoutput \+
+:= [] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "if listroutput = 'lis
+troutput' then listroutput := [] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 55 "if file_names = 'file_names' then file_names := [] fi ;" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "if file_rnames = 'file_rnames' then
+ file_rnames := [] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "if time_
+iniout = 'time_iniout' then time_iniout := 0.01 fi ;" }}{PARA 0 "> " 0
+ "" {MPLTEXT 1 0 63 "if time_intvout = 'time_intvout' then time_intvou
+t := 0.02 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "if nopt_v = 'nopt
+_v' then nopt_v := 0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "if nto
+pt_v = 'ntopt_v' then ntopt_v := 0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 54 "if nparam_opt = 'nparam_opt' then nparam_opt := 0 fi ;" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "if maxxmeas_v = 'maxxmeas_v' then m
+axxmeas_v := 0 fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "if maxspmeas
+_v = 'maxspmeas_v' then maxspmeas_v := 0 fi ;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 49 "if opt_name = 'opt_name' then opt_name := [] fi ;" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "if idpar_v = 'idpar_v' then idpar_v
+ := [] fi ;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "if filemeas_name = '
+filemeas_name' then filemeas_name := [] fi ;" }}}{EXCHG {PARA 0 "> " 0
+ "" {MPLTEXT 1 0 21 "# Macrofor Extension\n" }{MPLTEXT 1 0 33 "# [OPEN
+FAPPEND,UNIT,FILE,STATUS]\n" }{MPLTEXT 1 0 56 "`macrofort/openfappend`
+ := proc(level,unit,file,status)\n" }{MPLTEXT 1 0 91 "`macrofort/lprin
+t`(cat(`macrofort/space`(level+6),`open(unit=`,unit,`,file='`,file,`',
+`)):\n" }{MPLTEXT 1 0 97 "`macrofort/lprint`(cat(`macrofort/space`(lev
+el),` +      status='`,status,`',access='append')`))\n" }{MPLTEXT 1 0 
+4 "end:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "p0(ncompo,variab
+les) ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "7&I)sp_C_oldG6\"I)sp_H_oldGF$I
+)sp_N_oldGF$I)sp_l_oldGF$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+47 "p1(nreactions,ncompo,variables,variables_old) ;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "KI'vectorG6\"6#7.&I\"?GF$6#\"\"\"&F(6#\"\"#&F(6#\"\"$&F
+(6#\"\"%&F(6#\"\"&&F(6#\"\"'&F(6#\"\"(&F(6#\"\")&F(6#\"\"*&F(6#\"#5&F(
+6#\"#6&F(6#\"#7Q(pprint0F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+15 "p2(variables) ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "7&,(I#r2G6\"!\"\"
+I#r6GF%F&I$r10GF%F&,(I#r3GF%F&I#r7GF%F&I$r11GF%F&,(I#r4GF%F&I#r8GF%F&I
+$r12GF%F&I(dsp_ldtGF%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "p3
+(eqrxnId);" }}{PARA 11 "" 1 "" {XPPMATH 20 "7.I#r1G6\"I$r10GF$I$r11GF$
+I$r12GF$I#r2GF$I#r3GF$I#r4GF$I#r5GF$I#r6GF$I#r7GF$I#r8GF$I#r9GF$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "p4(ncompo): # pivoting with \+
+rationals - old version is p4old(ncompo)" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "KI'matrixG6\"6#7&72\"\"!!\"\"F(F(F)F(F(F(F)F(F(F(\"\"\"F(F(F(72F(F
+(F)F(F(F)F(F(F(F)F(F(F(F*F(F(72F(F(F(F)F(F(F)F(F(F(F)F(F(F(F*F(72F)F(F
+(F(F(F(F(F)F(F(F(F)F(F(F(F*Q(pprint0F$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "p5(ncompo,nreactions) ;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "KI'matrixG6\"6#7&72\"\"!!\"\"F(F(F)F(F(F(F)F(F(F(\"\"\"F(F(F(72F(F
+(F)F(F(F)F(F(F(F)F(F(F(F*F(F(72F(F(F(F)F(F(F)F(F(F(F)F(F(F(F*F(72F)F(F
+(F(F(F(F(F)F(F(F(F)F(F(F(F*Q(pprint0F$" }}{PARA 11 "" 1 "" {XPPMATH 20
+ "7#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "KI'matrixG6\"6#7&72\"\"!!\"
+\"F(F(F)F(F(F(F)F(F(F(\"\"\"F(F(F(72F(F(F)F(F(F)F(F(F(F)F(F(F(F*F(F(72
+F(F(F(F)F(F(F)F(F(F(F)F(F(F(F*F(72F)F(F(F(F(F(F(F)F(F(F(F)F(F(F(F*Q(pp
+rint0F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "7$\"\"%\"\"\"" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "KI'matrixG6\"6#7&72\"\"!!\"\"F(F(F)F(F(F(F)F(F(F(\"
+\"\"F(F(F(72F(F(F)F(F(F)F(F(F(F)F(F(F(F*F(F(72F(F(F(F)F(F(F)F(F(F(F)F(
+F(F(F*F(72F)F(F(F(F(F(F(F)F(F(F(F)F(F(F(F*Q(pprint0F$" }}{PARA 11 "" 1
+ "" {XPPMATH 20 "7%\"\"%\"\"\"\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "K
+I'matrixG6\"6#7&72\"\"!!\"\"F(F(F)F(F(F(F)F(F(F(\"\"\"F(F(F(72F(F(F)F(
+F(F)F(F(F(F)F(F(F(F*F(F(72F(F(F(F)F(F(F)F(F(F(F)F(F(F(F*F(72F)F(F(F(F(
+F(F(F)F(F(F(F)F(F(F(F*Q(pprint0F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "7&
+\"\"%\"\"\"\"\"#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "KI'matrixG6\"6#
+7&72\"\"!!\"\"F(F(F)F(F(F(F)F(F(F(\"\"\"F(F(F(72F(F(F)F(F(F)F(F(F(F)F(
+F(F(F*F(F(72F(F(F(F)F(F(F)F(F(F(F)F(F(F(F*F(72F)F(F(F(F(F(F(F)F(F(F(F)
+F(F(F(F*Q(pprint0F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "p6(n
+compo,nreactions) ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "KI'matrixG6\"6#7&
+7.\"\"!!\"\"F(F(F)F(F(F(F)F(F(F(7.F(F(F)F(F(F)F(F(F(F)F(F(7.F(F(F(F)F(
+F(F)F(F(F(F)F(7.F)F(F(F(F(F(F(F)F(F(F(F)Q(pprint0F$" }}}{EXCHG {PARA 0
+ "> " 0 "" {MPLTEXT 1 0 50 "p7(nreactions): # full dR/dC - p7old(nreac
+tions) ;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "p8(neqrxns) :" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20
+ "\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "p9(n
+compo) :" }}{PARA 11 "" 1 "" {XPPMATH 20 "KI'vectorG6\"6#7&,,*2I&k_deg
+GF$\"\"\",*&I#spGF$6$F*I\"jGF$F*&F-6$\"\"#F/F*&F-6$\"\"$F/F*&F-6$\"\"%
+F/F*F*,,I$K_sGF$F*F,F*F0F*F3F*F6F*!\"\",(F*F*I&fact1GF$F;I&fact2GF$F;F
+*I)alpha_C3GF$F*F,F*,(F6F*F0F*F3F*F;,&F*F**(F?F*F,F*F@F;F*F;F;*2F)F*F+
+F*F9F;F=F*I)alpha_C1GF$F*F,F*F@F;,&F*F**(FDF*F,F*F@F;F*F;F;*2F)F*F+F*F
+9F;F>F*I)alpha_C2GF$F*F,F*F@F;,&F*F**(FHF*F,F*F@F;F*F;F;*&F,F*I%deltG6
+#/I'_localG%*protectedGI,_n495452160GF$F;F;*&&I&spoldGF$F.F*FLF;F*,,*2
+F)F*F+F*F9F;F<F*I)alpha_H3GF$F*F0F*,(F6F*F,F*F3F*F;,&F*F**(FWF*F0F*FXF
+;F*F;F;*2F)F*F+F*F9F;F=F*I)alpha_H1GF$F*F0F*FXF;,&F*F**(FfnF*F0F*FXF;F
+*F;F;*2F)F*F+F*F9F;F>F*I)alpha_H2GF$F*F0F*FXF;,&F*F**(FjnF*F0F*FXF;F*F
+;F;*&F0F*FLF;F;*&&FTF1F*FLF;F*,,*2F)F*F+F*F9F;F<F*I)alpha_N3GF$F*F3F*,
+(F6F*F,F*F0F*F;,&F*F**(FboF*F3F*FcoF;F*F;F;*2F)F*F+F*F9F;F=F*I)alpha_N
+1GF$F*F3F*FcoF;,&F*F**(FgoF*F3F*FcoF;F*F;F;*2F)F*F+F*F9F;F>F*I)alpha_N
+2GF$F*F3F*FcoF;,&F*F**(F[pF*F3F*FcoF;F*F;F;*&F3F*FLF;F;*&&FTF4F*FLF;F*
+,,*,F)F*F+F*F9F;F=F*,*F*F***FDF*F,F*F@F;FEF;F;**FfnF*F0F*FXF;FgnF;F;**
+FgoF*F3F*FcoF;FhoF;F;F*F;*,F)F*F+F*F9F;F>F*,*F*F***FHF*F,F*F@F;FIF;F;*
+*FjnF*F0F*FXF;F[oF;F;**F[pF*F3F*FcoF;F\\pF;F;F*F;*,F)F*F+F*F9F;F<F*,*F
+*F***F?F*F,F*F@F;FAF;F;**FWF*F0F*FXF;FYF;F;**FboF*F3F*FcoF;FdoF;F;F*F;
+*&F6F*FLF;F;*&&FTF7F*FLF;F*Q(pprint0F$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "p10() :" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "
+nparphys := 11 :# real*8\n" }{MPLTEXT 1 0 76 "phys_name := [al,q0,w0,D
+b0,por0,area0,t_celsius,salin,delt,depthmax,endt] :\n" }{MPLTEXT 1 0 
+73 "phys_val := [val,vq0,vw0,vDb0,vpor0,varea0,T_C,S,Dt,depth_max,tot_
+time];\n" }{MPLTEXT 1 0 26 "nparphys2 := 7 :# integer\n" }{MPLTEXT 1 
+0 48 "phys_name2 := [iq,iw,iDb,ipor,igrid,iarea,ic] :\n" }{MPLTEXT 1 
+0 53 "phys_val2 := [viq,viw,viDb,vipor,vigrid,viarea,vic];\n" }
+{MPLTEXT 1 0 72 "acg8(nparphys,phys_name,phys_val,nparphys2,phys_name2
+,phys_val2,dir_f) ;" }}{PARA 11 "" 1 "" {XPPMATH 20 ">I)phys_valG6\"7-
+$\"\"!F'F&F&F&$\"#5!\"\"F($\"#BF'$F)!#6$\"\"&!\"$F($\"$,%F*" }}{PARA 
+11 "" 1 "" {XPPMATH 20 ">I*phys_val2G6\"7)\"\"!F&F&F&F&F&\"\"#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 105 "acg0(nsolids,ndissolved,nco
+mpo,nreactions,bio_name,phys_name,phys_val,phys_name2,phys_val2,dir_f,
+nnodes):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "acg1(type_up,bn
+ddata_up,type_down,bnddata_down,dir_f) ;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 39 "acg2(ncompo,diffdata,alphadata,dir_f) ;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "acg3(nparam,bio_name,bio_val,dir_f)
+ ;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "acg4(ncompo,func,dir_
+f) ;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "acg5(pd,dir_f) ;" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "#acg6(type_down,nsolids,li
+stsolids,dir_f) ; # openbound" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 108 "acg7(ncompo,noutput,nroutput,listoutput,listroutput,file_names,
+file_rnames,time_iniout,time_intvout,dir_f) ;" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 33 "acg0a(nopt_v,ntopt_v,nparam_opt);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "acg0b(maxxmeas_v,maxspmeas_v);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "acg9(nparam_opt,opt_name,dir
+_f) ;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "acg10(nparam_opt,o
+pt_name,dir_f) ;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "acg11(n
+opt_v,idpar_v,ntopt_v,filemeas_name) ;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 56 "acg12(vic,iniconc,ncompo,listinput,file_in_names,dir_
+f);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "acg13(ncompo) ;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "acg14(nrnotransp,listnotrans
+p,dir_f) ;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "acg15(nreacti
+ons);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "acg16(nsolids,list
+solids,dir_f);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "if(iswitc
+h=1) then acg17(variables,dir_f) fi; # switches.f\n" }{MPLTEXT 1 0 4 "
+try\n" }{MPLTEXT 1 0 44 "  if (nswitches < 0) then nswitches := 0 fi;"
+ }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 7 "catch:\n" }{MPLTEXT 1 0 18 "  n
+switches := 0;\n" }{MPLTEXT 1 0 9 "end try;\n" }{MPLTEXT 1 0 25 "acg17
+a(nswitches,dir_f);\n" }{MPLTEXT 1 0 4 "try\n" }{MPLTEXT 1 0 49 "  if \+
+(nparameters < 0) then nparameters := 0 fi;\n" }{MPLTEXT 1 0 7 "catch:
+\n" }{MPLTEXT 1 0 20 "  nparameters := 0;\n" }{MPLTEXT 1 0 9 "end try;
+\n" }{MPLTEXT 1 0 26 "acg17b(nparameters,dir_f);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 ">I,nparametersG6\"\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "#acg18(rjac,dir_f):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 81 "\"now recompile fortran code. check additional option
+ settings in drivervalues.f\";" }}{PARA 11 "" 1 "" {XPPMATH 20 "Qionow
+~recompile~fortran~code.~check~additional~option~settings~in~driverval
+ues.f6\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2
+ 33 1 1 }

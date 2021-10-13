@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Application" Version="11.0" ProjectIdGuid="{71C1C7AB-6A8A-424E-850A-F38DDEF8036A}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Preprocess="preprocessYes" RuntimeLibrary="rtMultiThreadedDLL" UseMkl="mklSequential"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc">
+		<File RelativePath=".\common.inc"/>
+		<File RelativePath=".\common_drive.inc"/>
+		<File RelativePath=".\common_geo.inc"/>
+		<File RelativePath=".\common_meas.inc"/>
+		<File RelativePath=".\common_opt.inc"/>
+		<File RelativePath=".\defines.inc"/></Filter>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\advdiffcoeff.f"/>
+		<File RelativePath=".\basic.f"/>
+		<File RelativePath=".\biogeo.f"/>
+		<File RelativePath=".\boundaries.f"/>
+		<File RelativePath=".\diagenesis.f"/>
+		<File RelativePath=".\drivervalues.f"/>
+		<File RelativePath=".\eigen.f"/>
+		<File RelativePath=".\frngdb.f"/>
+		<File RelativePath=".\funk.f"/>
+		<File RelativePath=".\GAMMP.F"/>
+		<File RelativePath=".\gaussj.f"/>
+		<File RelativePath=".\getdat.f"/>
+		<File RelativePath=".\getdelt.f"/>
+		<File RelativePath=".\gridsetup.f"/>
+		<File RelativePath=".\initialcond.f"/>
+		<File RelativePath=".\interpolate.f"/>
+		<File RelativePath=".\issolid.f"/>
+		<File RelativePath=".\jacobian.f"/>
+		<File RelativePath=".\limits.f"/>
+		<File RelativePath=".\LUBKSB.F"/>
+		<File RelativePath=".\LUDCMP.F"/>
+		<File RelativePath=".\main.f"/>
+		<File RelativePath=".\molecular.f"/>
+		<File RelativePath=".\MPROVE.F"/>
+		<File RelativePath=".\NEWT.F"/>
+		<File RelativePath=".\newtonsub.f"/>
+		<File RelativePath=".\notransport.f"/>
+		<File RelativePath=".\objf.f"/>
+		<File RelativePath=".\optima.f"/>
+		<File RelativePath=".\optimde.f"/>
+		<File RelativePath=".\optimlm.f"/>
+		<File RelativePath=".\optimsa.f"/>
+		<File RelativePath=".\output.f"/>
+		<File RelativePath=".\porarea.f"/>
+		<File RelativePath=".\printdepth.f"/>
+		<File RelativePath=".\printsvnversion.f"/>
+		<File RelativePath=".\rates.f"/>
+		<File RelativePath=".\residual.f"/>
+		<File RelativePath=".\ssrates.f"/>
+		<File RelativePath=".\steadystate.f"/>
+		<File RelativePath=".\storedat.f"/>
+		<File RelativePath=".\switches.f"/>
+		<File RelativePath=".\timestep.f"/>
+		<File RelativePath=".\transcoeff-MT.f"/>
+		<File RelativePath=".\transcoeff.f"/>
+		<File RelativePath=".\transferback.f"/>
+		<File RelativePath=".\transferfw.f"/>
+		<File RelativePath=".\transport.f"/>
+		<File RelativePath=".\TRIDAG.F"/></Filter></Files>
+	<Globals/></VisualStudioProject>

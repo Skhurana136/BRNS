@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{63440dba-2eb7-4d6d-b4a1-c319fb465ecf}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;f90;for;f;fpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5b54c1c2-94b7-4a96-92a7-b634aef1c761}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a921657b-ac15-42b7-ae70-8c89f7ab68ef}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lapack_win32.lib" />
+    <Library Include="..\blas_win32.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="externalcaller.f">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gaussj.f">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\jacobian.f">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\LUBKSB.F">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\LUDCMP.F">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\MPROVE.F">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\newtonsub.f">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\residual.f">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\switches.f">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

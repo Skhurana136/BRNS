@@ -1,0 +1,10 @@
+#POINTS
+0 0 0 0 $NAME PNULL
+1 0 1 0 $NAME PONE
+#POLYLINE
+ $NAME
+  line
+ $POINTS
+  0
+  1
+#STOP

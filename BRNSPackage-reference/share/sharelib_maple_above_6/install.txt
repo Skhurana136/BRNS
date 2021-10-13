@@ -1,0 +1,29 @@
+HOW TO MAKE THE MAPLE V SHARE LIBRARY FOR WINDOWS DIRECTLY AVAILABLE IN LATER VERSIONS, UP TO AND INCLUDING VERSION 10.03.
+
+MAC USERS: The "shareman" program apparently also works with Mac versions - but I have no direct experience of other Maple platforms]
+
+The "shareman" program allows DIRECT ACCESS to the Maple V Share Library, which I have extensively debugged. The program will only work after "with(share);" has been typed or detected in the worksheet. Maple 5 will work without the "shareman" program.
+
+Maple versions 5 to 8 give the best results; later versions have problems with a few packages. The programs "shoot" and "macroC" will not work with versions above Maple 8. Please let me know of any Maple V Share Library packages which do not work properly in your Maple version.
+
+
+TO INSTALL
+
+Step 1:  Create a sub-folder "SHARE" in the main Maple folder. Copy the files "maple.hdb", "maple.ind" and "maple.lib" to your new "SHARE" sub-folder.
+
+Step 2:  Copy the "shareman.m" file to the main Maple "LIB" folder.
+
+Step 3:  If you have a "maple.ini" file in the above "LIB" folder update it by typing in "with(shareman):" If no file exists copy the supplied "maple.ini" file to your "LIB" folder.
+
+[IMPORTANT: If you have a previous version of my package installed ensure ALL the old files have been overwritten]
+
+
+TO RUN
+
+To load the Maple V Share Library using the Classical Worksheet type "with(share);"
+
+Once loaded an alternative means of accessing the Library is to use "Topic Search" from the "Help" menu. On the "Topic" line, type "share" which will bring up a list of help pages under "Matching Topics."
+
+If you encounter any problems e-mail John at maplenut@britishlibrary.net
+
+**I WOULD APPRECIATE ANY FEEDBACK - THANK YOU!**                        [August 2006]
